@@ -75,30 +75,30 @@
     <description_player>
         <text id="aggressive" need_translate="false" value="The character's loyalty to you will decrease 2 times more in case of the failed negotiation"/>
         <text id="alcoholic" need_translate="false" value="There is a 20% chance that the character will not come to the negotiation"/>
-        <text id="arrogant" need_translate="false" value="No effect from the character's feature 'Arrogant'"/>
-        <text id="brawler" need_translate="false" value="+20% to the success of the agent 'Journalist'"/>
-        <text id="careful" need_translate="false" value="-20% to the success of the agent 'Hitman'"/>
-        <text id="careless" need_translate="false" value="+20% to the success of the agent 'Hitman'"/>
+        <text id="arrogant" need_translate="false" value="'Arrogant' has no effect"/>
+        <text id="brawler" need_translate="false" value="+20% to the success of Journalist"/>
+        <text id="careful" need_translate="false" value="-20% to the success of Hitman"/>
+        <text id="careless" need_translate="false" value="+20% to the success of Hitman"/>
         <text id="compliant" need_translate="false" value="The character will drop the price 2 times lower than usual in case of a counteroffer"/>
-        <text id="dark_past" need_translate="false" value="+20% to the success of the agent 'Detective'"/>
+        <text id="dark_past" need_translate="false" value="+20% to the success of Detective"/>
         <text id="dependent" need_translate="false" value="By negotiating you need to spend 2 times more influence points to make a deal"/>
         <text id="explosive" need_translate="false" value="You will have fewer attempts to make a deal"/>
-        <text id="fearless" need_translate="false" value="-20% to the success of the agent 'Goon'"/>
-        <text id="fool" need_translate="false" value="No effect from the character's feature 'Despot'"/>
+        <text id="fearless" need_translate="false" value="-20% to the success of Goon"/>
+        <text id="fool" need_translate="false" value="'Despot' has no effect'"/>
         <text id="friendly" need_translate="false" value="The character's loyalty to you will decrease 2 times less in case of the failed negotiation"/>
-        <text id="frigid" need_translate="false" value="-20% to the success of the agent 'Сourtesan'"/>
+        <text id="frigid" need_translate="false" value="-20% to the success of Сourtesan"/>
         <text id="heavy" need_translate="false" value="It will take 3 times longer to recover from the negotiation"/>
-        <text id="holyman" need_translate="false" value="-20% to the success of the agent 'Detective'"/>
+        <text id="holyman" need_translate="false" value="-20% to the success of Detective"/>
         <text id="illegible" need_translate="false" value="The failed/canceled negotiation: the reputation penalty is 2 times more"/>
         <text id="independent" need_translate="false" value="By negotiating you need to spend 2 times less influence points to make a deal"/>
         <text id="light" need_translate="false" value="It will take 3 times less time to recover from the negotiation"/>
-        <text id="lustful" need_translate="false" value="+20% to the success of the agent 'Сourtesan'"/>
+        <text id="lustful" need_translate="false" value="+20% to the success of Сourtesan"/>
         <text id="mercantile" need_translate="false" value="The negotiation will be 2 times cheaper"/>
-        <text id="restrained" need_translate="false" value="-20% to the success of the agent 'Journalist'"/>
+        <text id="restrained" need_translate="false" value="-20% to the success of Journalist"/>
         <text id="selective" need_translate="false" value="The canceled negotiation: the reputation penalty is 2 times less; the successful negotiation: the reputation bonus is 2 times more"/>
-        <text id="shy" need_translate="false" value="+20% to the success of the agent 'Goon'"/>
-        <text id="spender" need_translate="false" value="+20% to the success of the agent 'Gangster'"/>
-        <text id="thrifty" need_translate="false" value="-20% to the success of the agent 'Gangster'"/>
+        <text id="shy" need_translate="false" value="+20% to the success of Goon"/>
+        <text id="spender" need_translate="false" value="+20% to the success of Gangster"/>
+        <text id="thrifty" need_translate="false" value="-20% to the success of Gangster"/>
         <text id="trader" need_translate="false" value="The character will drop the price 2 times more than usual in case of a counteroffer"/>
         <text id="wasteful" need_translate="false" value="The negotiation will be 2 times more expensive"/>
     </description_player>
@@ -108,34 +108,34 @@
         <text id="alcoholic" need_translate="false" value="There is a 20% chance that the character will not come to the negotiation"/>
         <text id="antiques" need_translate="false" value="Antiques"/>
         <text id="arrogant" need_translate="false" value="Only the player can make a deal"/>
-        <text id="brawler" need_translate="false" value="+20% to the success of the agent 'Journalist'"/>
-        <text id="careful" need_translate="false" value="-20% to the success of the agent 'Hitman'"/>
-        <text id="careless" need_translate="false" value="+20% to the success of the agent 'Hitman'"/>
+        <text id="brawler" need_translate="false" value="+20% to the success of Journalist"/>
+        <text id="careful" need_translate="false" value="-20% to the success of Hitman"/>
+        <text id="careless" need_translate="false" value="+20% to the success of Hitman"/>
         <text id="cars" need_translate="false" value="Cars"/>
         <text id="coins" need_translate="false" value="Coins"/>
         <text id="compliant" need_translate="false" value="The character will drop the price 2 times more than usual in case of a counteroffer"/>
-        <text id="dark_past" need_translate="false" value="+20% to the success of the agent 'Detective'"/>
+        <text id="dark_past" need_translate="false" value="+20% to the success of Detective"/>
         <text id="dependent" need_translate="false" value="By negotiating you need to spend 2 times less influence points to make a deal"/>
         <text id="explosive" need_translate="false" value="You will have fewer attempts to make a deal"/>
-        <text id="fearless" need_translate="false" value="-20% to the success of the agent 'Goon'"/>
+        <text id="fearless" need_translate="false" value="-20% to the success of Goon"/>
         <text id="fool" need_translate="false" value="You need to spend 3 times more influence points to start the negotiation"/>
         <text id="friendly" need_translate="false" value="The character's loyalty to you will decrease 2 times less in case of the failed negotiation"/>
-        <text id="frigid" need_translate="false" value="-20% to the success of the agent 'Сourtesan'"/>
+        <text id="frigid" need_translate="false" value="-20% to the success of Сourtesan"/>
         <text id="heavy" need_translate="false" value="It will take 3 times longer to recover from the negotiation"/>
-        <text id="holyman" need_translate="false" value="-20% to the success of the agent 'Detective'"/>
+        <text id="holyman" need_translate="false" value="-20% to the success of Detective"/>
         <text id="horses" need_translate="false" value="Horses"/>
         <text id="houses" need_translate="false" value="Houses"/>
         <text id="illegible" need_translate="false" value="The canceled negotiation: the reputation penalty is 2 times less; the successful negotiation: the reputation bonus is 2 times more"/>
         <text id="independent" need_translate="false" value="By negotiating you need to spend 2 times more influence points to make a deal"/>
         <text id="light" need_translate="false" value="It will take 3 times less time to recover from the negotiation"/>
-        <text id="lustful" need_translate="false" value="+20% to the success of the agent 'Сourtesan'"/>
+        <text id="lustful" need_translate="false" value="+20% to the success of Сourtesan"/>
         <text id="mercantile" need_translate="false" value="The negotiation will be 2 times more expensive"/>
         <text id="pictures" need_translate="false" value="Pictures"/>
-        <text id="restrained" need_translate="false" value="-20% to the success of the agent 'Journalist'"/>
+        <text id="restrained" need_translate="false" value="-20% to the success of Journalist"/>
         <text id="selective" need_translate="false" value="The failed/canceled negotiation: the reputation penalty is 2 times more"/>
-        <text id="shy" need_translate="false" value="+20% to the success of the agent 'Goon'"/>
-        <text id="spender" need_translate="false" value="+20% to the success of the agent 'Gangster'"/>
-        <text id="thrifty" need_translate="false" value="-20% to the success of the agent 'Gangster'"/>
+        <text id="shy" need_translate="false" value="+20% to the success of Goon"/>
+        <text id="spender" need_translate="false" value="+20% to the success of Gangster"/>
+        <text id="thrifty" need_translate="false" value="-20% to the success of Gangster"/>
         <text id="trader" need_translate="false" value="The character will drop the price 2 times lower than usual in case of a counteroffer"/>
         <text id="trophies" need_translate="false" value="Trophies"/>
         <text id="wasteful" need_translate="false" value="The negotiation will be 2 times cheaper"/>

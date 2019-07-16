@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<laws>
+    <law_10>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_10>
+    <law_1>
+        <text id="description" need_translate="false" value="Raising corporate income taxes will lead to lower companies' net income making them less competitive in the long run. But that's certainly one way to increase the budget"/>
+        <text id="name" need_translate="false" value="Corporate tax rate"/>
+        <text id="negative" need_translate="false" value="Corporate income tax cut of %1"/>
+        <text id="positive" need_translate="false" value="Corporate income tax increase by %1"/>
+    </law_1>
+    <law_11>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_11>
+    <law_12>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_12>
+    <law_13>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_13>
+    <law_14>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_14>
+    <law_15>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_15>
+    <law_16>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_16>
+    <law_17>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_17>
+    <law_18>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_18>
+    <law_19>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_19>
+    <law_20>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_20>
+    <law_2>
+        <text id="description" need_translate="false" value="Raising individual income tax will give the legislators the opportunity to increase the state budget. However, that may well provoke mass riots, protests among dissatisfied."/>
+        <text id="name" need_translate="false" value="Individual income tax"/>
+        <text id="negative" need_translate="false" value="Individual income tax cut of %1"/>
+        <text id="positive" need_translate="false" value="Individual income tax increase by %1"/>
+    </law_2>
+    <law_21>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_21>
+    <law_22>
+        <text id="description" need_translate="false" value="Raising weekly working hours will allow capitalists to produce more goods than before without breaking the law or causing strikes among workers."/>
+        <text id="name" need_translate="false" value="Maximum weekly working hours"/>
+        <text id="negative" need_translate="false" value="Working hours reduction by 1 hour"/>
+        <text id="positive" need_translate="false" value="Working hours increase by 1 hour"/>
+    </law_22>
+    <law_23>
+        <text id="description" need_translate="false" value="Dismissal without  pay makes people to turn out on the street with empty pockets. It's a bad thing for capitalists in conditions of high staff turnover"/>
+        <text id="name" need_translate="false" value="Dismissal benefit"/>
+        <text id="negative" need_translate="false" value="Reject 'Dismissal benefit'"/>
+        <text id="positive" need_translate="false" value="Approve 'Dismissal benefit'"/>
+    </law_23>
+    <law_24>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_24>
+    <law_3>
+        <text id="description" need_translate="false" value="Raising export duties is the reason for increasing competitive in the country among local companies. That's a right way to increase the government\state budget but company owners will lose the opportunity to dominate global markets."/>
+        <text id="name" need_translate="false" value="Export duties"/>
+        <text id="negative" need_translate="false" value="Export duties cut of %1"/>
+        <text id="positive" need_translate="false" value="Export duties increase by %1"/>
+    </law_3>
+    <law_4>
+        <text id="description" need_translate="false" value="Raising import duties is the reason for increasing domestic prices - local producers benefit from that -, however, in the long run, they may be less competitive in global markets."/>
+        <text id="name" need_translate="false" value="Import duties"/>
+        <text id="negative" need_translate="false" value="Import duties cut of %1"/>
+        <text id="positive" need_translate="false" value="Import duties increase by %1"/>
+    </law_4>
+    <law_5>
+        <text id="description" need_translate="false" value="Antitrust law prevents competitors in any field from setting prices. Thus, the law will limit the quantity of goods sold in the amount of 35% of the population’s demand."/>
+        <text id="name" need_translate="false" value="Antitrust law"/>
+        <text id="negative" need_translate="false" value="Repeal 'Antitrust law'"/>
+        <text id="positive" need_translate="false" value="Pass 'Antitrust law'"/>
+    </law_5>
+    <law_6>
+        <text id="description" need_translate="false" value="Population is interested in the struggle against corruption. But capitalists are always opposing such laws because a political puppet is a way to lobby their interests."/>
+        <text id="name" need_translate="false" value="Punishment for corruption"/>
+        <text id="negative" need_translate="false" value="Decrease the punishment by 1 year"/>
+        <text id="positive" need_translate="false" value="Increase the punishment by 1 year"/>
+    </law_6>
+    <law_7>
+        <text id="description" need_translate="false" value="Police funding impact public safety and criminal justice. On the one hand it increases the safety, on the other social tension increases due to the restriction of individual freedom"/>
+        <text id="name" need_translate="false" value="Police funding"/>
+        <text id="negative" need_translate="false" value="Decrease police funding by %1"/>
+        <text id="positive" need_translate="false" value="Increase police funding by %1"/>
+    </law_7>
+    <law_8>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_8>
+    <law_9>
+        <text id="description" need_translate="true" value=""/>
+        <text id="name" need_translate="true" value=""/>
+        <text id="negative" need_translate="true" value=""/>
+        <text id="positive" need_translate="true" value=""/>
+    </law_9>
+</laws>

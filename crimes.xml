@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crimes>
+    <crime_type>
+        <text id="corruption" need_translate="false" value="Corruption"/>
+        <text id="extortion" need_translate="false" value="Extortion"/>
+        <text id="manipulation" need_translate="false" value="Manipulation"/>
+        <text id="murder" need_translate="false" value="Murder"/>
+        <text id="persecution" need_translate="false" value="Prosecution"/>
+        <text id="robbery" need_translate="false" value="Robbery"/>
+        <text id="slander" need_translate="false" value="Slander"/>
+    </crime_type>
     <effects>
         <text id="arrets_chance" need_translate="false" value="Arrest chance"/>
         <text id="jail_time_text" need_translate="false" value="Term imprisonment"/>
@@ -34,7 +43,7 @@
         <text id="hide_evidence_popup_1" need_translate="false" value="Hide evidence"/>
         <text id="hide_evidence_popup_1_hover" need_translate="false" value="You have a %1% chance that the official will take a bribe (The bribe sum: $%2) and a %3% chance that he will close the case"/>
         <text id="hide_evidence_popup_2" need_translate="false" value="Scapegoat"/>
-        <text id="hide_evidence_popup_2_hover" need_translate="false" value="Select a scapegoat"/>
+        <text id="hide_evidence_popup_2_hover" need_translate="false" value="Choose a scapegoat"/>
         <text id="hide_evidence_popup_3" need_translate="false" value="I don't care"/>
         <text id="hide_evidence_popup_3_hover" need_translate="false" value="You may be arrested on %1"/>
         <text id="hide_evidence_popup_header" need_translate="false" value="Investigation of the case of\n&quot;%1&quot;"/>
@@ -69,6 +78,14 @@
         <text id="jail_result_text" need_translate="false" value="Finally, i'm free!"/>
         <text id="jail_result_text_1" need_translate="false" value="What are you getting at? Are you trying to bribe me? It's a felony. Get out of here!...But you can leave the money..I need to feed my children"/>
         <text id="jail_result_text_2" need_translate="false" value="%%3 governor %2 has pardoned %4 who committed the crime &quot;%5&quot;"/>
+        <text id="official_result_header_1" need_translate="false" value="The official refused to help you"/>
+        <text id="official_result_header_2" need_translate="false" value="The official agreed to help you"/>
+        <text id="official_result_text_1" need_translate="false" value="What are you getting at? Are you trying to bribe me? It's a felony. Get out of here!...But you can leave the money..I need to feed my children"/>
+        <text id="official_result_text_2" need_translate="false" value="I'm willing to represent your interests in %1"/>
+        <text id="politician_result_header_1" need_translate="false" value="The politician refused to help you"/>
+        <text id="politician_result_header_2" need_translate="false" value="The politician agreed to help you"/>
+        <text id="politician_result_text_1" need_translate="false" value="What are you getting at? Are you trying to bribe me? It's a felony. Get out of here!...But you can leave the money..I need to feed my children"/>
+        <text id="politician_result_text_2" need_translate="false" value="I'm willing to represent your interests in %1 legislature"/>
         <text id="scapegoat_popup_header" need_translate="false" value="Choose assistant"/>
         <text id="scapegoat_popup_text" need_translate="false" value="Choose a scapegoat who will be charged with your crimes"/>
     </popup>

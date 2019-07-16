@@ -23,26 +23,26 @@
         <text id="world_monopolist" need_translate="false" value="Capture %1% market share in the world"/>
     </descriptions>
     <descriptions_complete>
-        <text id="artificial_manipulator" need_translate="false" value="You have hired %1 assistants"/>
-        <text id="bloody_prince" need_translate="false" value="You have made %1 successful attempts on the characters' life"/>
-        <text id="collector" need_translate="false" value="You have got %1 collectibles"/>
-        <text id="combinator" need_translate="false" value="You have created %1 vertical intergrations"/>
-        <text id="corrupting_power" need_translate="false" value="You have made %1 corrupt deals"/>
-        <text id="country_figure" need_translate="false" value="You have reached %1% of influence in the USA"/>
-        <text id="diplomat_of_devil" need_translate="false" value="You have conducted %1 successful negotiations"/>
-        <text id="great_raider" need_translate="false" value="You have taken control of %1 companies"/>
+        <text id="artificial_manipulator" need_translate="false" value="You have hired %1 assistants."/>
+        <text id="bloody_prince" need_translate="false" value="You have made %1 successful attempts on the characters' life."/>
+        <text id="collector" need_translate="false" value="You have got %1 collectibles."/>
+        <text id="combinator" need_translate="false" value="You have created %1 vertical intergrations."/>
+        <text id="corrupting_power" need_translate="false" value="You have made %1 corrupt deals."/>
+        <text id="country_figure" need_translate="false" value="You have reached %1% of influence in the USA."/>
+        <text id="diplomat_of_devil" need_translate="false" value="You have conducted %1 successful negotiations."/>
+        <text id="great_raider" need_translate="false" value="You have taken control of %1 company (ies)."/>
         <text id="individual" need_translate="false" value="You have bought %1% of the company's shares."/>
-        <text id="local_lobbyist" need_translate="false" value="You have lobbied %1 local laws"/>
-        <text id="local_monopolist" need_translate="false" value="You have captured %1% market share in the state"/>
-        <text id="master_of_secrets" need_translate="false" value="You have got %1 compromising evidence"/>
+        <text id="local_lobbyist" need_translate="false" value="You have lobbied %1 local laws."/>
+        <text id="local_monopolist" need_translate="false" value="You have captured %1% market share in the state."/>
+        <text id="master_of_secrets" need_translate="false" value="You have got %1 compromising evidence."/>
         <text id="plutocrat" need_translate="false" value="You have made $%1."/>
-        <text id="political_heavyweight" need_translate="false" value="You have lobbied %1 federal laws"/>
-        <text id="regional_figure" need_translate="false" value="You have reached %1% of influence in the state"/>
+        <text id="political_heavyweight" need_translate="false" value="You have lobbied %1 federal laws."/>
+        <text id="regional_figure" need_translate="false" value="You have reached %1% of influence in the state."/>
         <text id="shadow_ruler" need_translate="false" value="Now you have your own the USA ruler!"/>
-        <text id="themis_master" need_translate="false" value="You have canceled %1 judgments"/>
-        <text id="us_monopolist" need_translate="false" value="You have captured %1% market share in the USA"/>
-        <text id="walk_in_all_doors" need_translate="false" value="All the officials in the state are your puppets"/>
-        <text id="world_monopolist" need_translate="false" value="You have captured %1% market share in the world"/>
+        <text id="themis_master" need_translate="false" value="You have canceled %1 judgments."/>
+        <text id="us_monopolist" need_translate="false" value="You have captured %1% market share in the USA."/>
+        <text id="walk_in_all_doors" need_translate="false" value="All the officials in the state are your puppets."/>
+        <text id="world_monopolist" need_translate="false" value="You have captured %1% market share in the world."/>
     </descriptions_complete>
     <names>
         <text id="artificial_manipulator" need_translate="false" value="Skilled manipulator"/>
@@ -75,7 +75,7 @@
         <text id="country_figure" need_translate="false" value="Influence level in the USA:"/>
         <text id="diplomat_of_devil" need_translate="false" value="Conducted negotiations:"/>
         <text id="great_raider" need_translate="false" value="Control of companies:"/>
-        <text id="individual" need_translate="false" value="Purchased shares stake:"/>
+        <text id="individual" need_translate="false" value="Purchased share stake:"/>
         <text id="local_lobbyist" need_translate="false" value="Lobby local laws:"/>
         <text id="local_monopolist" need_translate="false" value="Market share in the state:"/>
         <text id="master_of_secrets" need_translate="false" value="Got compromising evidence:"/>

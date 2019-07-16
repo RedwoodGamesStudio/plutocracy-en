@@ -13,11 +13,11 @@
         <text id="50_header" need_translate="false" value="Campaign finance"/>
         <text id="51_description" need_translate="false" value="I would like to ask you to help my %1 get on the board of directors of %2 company. I will be grateful for that!"/>
         <text id="51_header" need_translate="false" value="Directors board"/>
-        <text id="52_description" need_translate="false" value="Hello! Can you help my %1 become a stockholder of %2 company from %3 state?"/>
+        <text id="52_description" need_translate="false" value="Hello! Can you help my %1 become a stockholder of %2 company in %3 state?"/>
         <text id="52_header" need_translate="false" value="Company stockholder"/>
-        <text id="53_description" need_translate="false" value="%1Influental politicians are always the best way to quickly solve a 'problem'. Can you arrange a meeting with the %2 %4 from %3"/>
+        <text id="53_description" need_translate="false" value="%1Influental politicians are always the best way to quickly solve a 'problem'. Can you arrange a meeting with %2 %4 from %3?"/>
         <text id="53_header" need_translate="false" value="Political connections"/>
-        <text id="54_description" need_translate="false" value="%1'Needed connections' can help me sort out a problem. Can you arrange a meeting with the %2 %4 from %3?"/>
+        <text id="54_description" need_translate="false" value="%1'Needed connections' can help me sort out a problem. Can you arrange a meeting with %2 %4 from %3?"/>
         <text id="54_header" need_translate="false" value="Official connection"/>
     </event>
     <event_button>
@@ -32,7 +32,7 @@
         <text id="button_20_3_text" need_translate="false" value="I don't think it makes sense"/>
         <text id="button_21_1_header" need_translate="false" value="Come with an expensive gift"/>
         <text id="button_21_1_hover_text" need_translate="false" value="Money: -$%1\nThe loyalty to you: +%2%"/>
-        <text id="button_21_1_text" need_translate="false" value="An expensive gift is a gesture of respect. Although, now and then, it gives you the opportunity to manipulate a person by forcing him to do what you need!"/>
+        <text id="button_21_1_text" need_translate="false" value="An expensive gift is a gesture of respect. Although, now and then, it gives you the opportunity to manipulate a person by making him to do what you need!"/>
         <text id="button_21_2_header" need_translate="false" value="Come with a symbolic gift"/>
         <text id="button_21_2_hover_text" need_translate="false" value="Money: -$%1\nThe loyalty to you: +%2%"/>
         <text id="button_21_2_text" need_translate="false" value="I'm pretty sure it's the thought that counts!"/>

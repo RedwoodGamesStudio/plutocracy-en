@@ -81,13 +81,13 @@
         <text id="45_title" need_translate="false" value="Profitability"/>
         <text id="46_text" need_translate="false" value="Present the company value relative to the market price of its shares"/>
         <text id="46_title" need_translate="false" value="Market cap"/>
-        <text id="47_text" need_translate="false" value="The buying price of shares by a brokerage"/>
+        <text id="47_text" need_translate="false" value="The share buying price by a brokerage"/>
         <text id="47_title" need_translate="false" value="Market price"/>
         <text id="4_title" need_translate="false" value="Achievements and elite"/>
         <text id="4_value" need_translate="false" value="Your achievements and leaderboard"/>
         <text id="50_title" need_translate="false" value="Time left"/>
         <text id="50_value" need_translate="false" value="The time on the clock dial is the number of attempts to make a deal"/>
-        <text id="5_title" need_translate="false" value="Authority "/>
+        <text id="5_title" need_translate="false" value="Federal government"/>
         <text id="5_value" need_translate="false" value="lobbying laws, sponsoring politicians or officials"/>
         <text id="6_title" need_translate="false" value="News"/>
         <text id="6_value" need_translate="false" value="The chronology of game events"/>
