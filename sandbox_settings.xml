@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sandbox_settings>
     <text id="btn_start_game" need_translate="false" value="Start game"/>
-    <win_settings>
-        <text id="economy" need_translate="false" value="You have to answer the question: is greed good? Your goal is to become the first dollar billionaire in history. You have 10 years before the 1880s. Choose the wealth level you would like to reach."/>
-        <text id="monopoly" need_translate="false" value="Capture 80% of the market share in the selected industry: oil, banking, logistics and other. Build the most powerful financial imperia and squeeze out all the competitors!"/>
-        <text id="politial_influence" need_translate="false" value="You need to reach the total international political influence to win! You can lobby politicians and laws as well as corrupting officials. Make your choice how to achieve the goal!"/>
-        <text id="superiority" need_translate="false" value="Take your place among the richest capitalists and businessmen in history! You'll be struggling the competitors of the richest international clans and families. Are you able to challenge them?"/>
-    </win_settings>
+    <text id="end_time" need_translate="false" value="End date"/>
+    <win_settings_description>
+        <text id="free_mode" need_translate="false" value="Free mode"/>
+        <text id="influence_victory" need_translate="false" value="Influence"/>
+        <text id="money_victory" need_translate="false" value="Wealth"/>
+        <text id="power_victory" need_translate="false" value="Power"/>
+    </win_settings_description>
+    <win_settings_header>
+        <text id="free_mode" need_translate="false" value="No conditions for win"/>
+        <text id="influence_victory" need_translate="false" value="Influence is the best way to rule the country and people. Become the most influential person in the USA by proving that money is just a consequence of acquired influence!"/>
+        <text id="money_victory" need_translate="false" value="You need to get to the top of the rating of the richest people in the USA as soon as possible. Maybe you will be able to get ahead of John D. Rockefeller by becoming a billionaire sooner than he"/>
+        <text id="power_victory" need_translate="false" value="It is the quintessence of wealth and influence. Only the best of the best can become the most powerful persons among other"/>
+    </win_settings_header>
     <world_settings>
         <game_difficult>
             <text id="financial_genius" need_translate="false" value="Hardcore economy with dynamic financial indicators. Quarterly ups and downs of the market as well as constantly changing prices. That's a pretty tough competition world!"/>

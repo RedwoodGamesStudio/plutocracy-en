@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company_technologies>
+    <technology_0>
+        <text id="description" need_translate="false" value="When the number of new workers is up sharply, the company's productivity gets down. The good workers training is a great way to quickly increase their experience"/>
+        <text id="name" need_translate="false" value="Workers training"/>
+    </technology_0>
+    <technology_10>
+        <text id="description" need_translate="false" value="Now developing"/>
+        <text id="name" need_translate="false" value="Maintenance"/>
+    </technology_10>
+    <technology_1>
+        <text id="description" need_translate="false" value="The workers' motivation affects their productivity"/>
+        <text id="name" need_translate="false" value="Motivation"/>
+    </technology_1>
+    <technology_11>
+        <text id="description" need_translate="false" value="Now developing"/>
+        <text id="name" need_translate="false" value="Automation"/>
+    </technology_11>
+    <technology_2>
+        <text id="description" need_translate="false" value="Hard working conditions affect the workers' productivity and, as a rule, lead to a strike"/>
+        <text id="name" need_translate="false" value="Working conditions"/>
+    </technology_2>
+    <technology_3>
+        <text id="description" need_translate="false" value="Compliance with workplace safety regulations lead to a lower accident rate"/>
+        <text id="name" need_translate="false" value="Safety"/>
+    </technology_3>
+    <technology_4>
+        <text id="description" need_translate="false" value="A customer continually looks for the best value for money - the it higher is, the more expensive the product will be"/>
+        <text id="name" need_translate="false" value="Quality"/>
+    </technology_4>
+    <technology_5>
+        <text id="description" need_translate="false" value="Negative goodwill always leads to deep the company's shares down"/>
+        <text id="name" need_translate="false" value="Goodwill"/>
+    </technology_5>
+    <technology_6>
+        <text id="description" need_translate="false" value="An effective hiring process can help hire some workers for lower wages"/>
+        <text id="name" need_translate="false" value="Hiring"/>
+    </technology_6>
+    <technology_7>
+        <text id="description" need_translate="false" value="The better the logistics, the greater the need for that services"/>
+        <text id="name" need_translate="false" value="Logistics"/>
+    </technology_7>
+    <technology_8>
+        <text id="description" need_translate="false" value="It increases the maximum size of the issue of shares and bonds, and also reduces the rate on bonds making debt obligations more profitable for the company"/>
+        <text id="name" need_translate="false" value="Investment attractiveness"/>
+    </technology_8>
+    <technology_9>
+        <text id="description" need_translate="false" value="The better refining, the less raw materials you need to buy for refining into the end-product"/>
+        <text id="name" need_translate="false" value="Refining quality"/>
+    </technology_9>
+</company_technologies>

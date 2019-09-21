@@ -9,16 +9,26 @@
         <text id="22_header" need_translate="false" value="Horse racing invitation"/>
         <text id="40_description" need_translate="false" value="%1%2 asks to increase his salary by $%3\nto $% 4 per quarter. The current loyalty to you: %5%"/>
         <text id="40_header" need_translate="false" value="Increase salary"/>
-        <text id="50_description" need_translate="false" value="A good donor is a generous donor! I need money right now...See, you need to bribe the voters' loyalty now and then... Can you help me with that?"/>
+        <text id="50_description" need_translate="false" value="%1%2 is going to run for again. At the moment, he is collecting money to finance his campaign"/>
         <text id="50_header" need_translate="false" value="Campaign finance"/>
         <text id="51_description" need_translate="false" value="I would like to ask you to help my %1 get on the board of directors of %2 company. I will be grateful for that!"/>
         <text id="51_header" need_translate="false" value="Directors board"/>
-        <text id="52_description" need_translate="false" value="Hello! Can you help my %1 become a stockholder of %2 company in %3 state?"/>
+        <text id="52_description" need_translate="false" value="I want to buy %2 company's shares from %3. If you help me, I will be grateful to you..."/>
         <text id="52_header" need_translate="false" value="Company stockholder"/>
-        <text id="53_description" need_translate="false" value="%1Influental politicians are always the best way to quickly solve a 'problem'. Can you arrange a meeting with %2 %4 from %3?"/>
-        <text id="53_header" need_translate="false" value="Political connections"/>
-        <text id="54_description" need_translate="false" value="%1'Needed connections' can help me sort out a problem. Can you arrange a meeting with %2 %4 from %3?"/>
-        <text id="54_header" need_translate="false" value="Official connection"/>
+        <text id="53_description" need_translate="false" value="%1I would like to take the political office of %2 in the next election on %3...My opponent is %4. If you help me out, i'll give you my influence!"/>
+        <text id="53_header" need_translate="false" value="Ambition"/>
+        <text id="54_description" need_translate="false" value="%1I would like to take the political office of %2 in the next election on %3...My opponent is %4. If you help me out, i'll give you my influence!"/>
+        <text id="54_header" need_translate="false" value="Ambition"/>
+        <text id="55_description" need_translate="false" value="%1%2 would like to buy some item for his collection &quot;%3&quot;, he's ready to pay lots of money for that"/>
+        <text id="55_header" need_translate="false" value="Ambition"/>
+        <text id="56_description" need_translate="false" value="%1%2 would like to sell some item from my collection &quot;%3&quot;, he's ready to pay lots of money for that"/>
+        <text id="56_header" need_translate="false" value="Ambition"/>
+        <text id="57_description" need_translate="false" value="%1%2 wants to take a director position in some company. Can you help him?"/>
+        <text id="57_header" need_translate="false" value="Ambition"/>
+        <text id="58_description" need_translate="false" value="%1%2 would like to be your assistant. What do you think about that?"/>
+        <text id="58_header" need_translate="false" value="Ambition"/>
+        <text id="59_description" need_translate="false" value="%1%2 has wanted to be a member of the board of directors of a company all his life. Can you help him?"/>
+        <text id="59_header" need_translate="false" value="Ambition"/>
     </event>
     <event_button>
         <text id="button_20_1_header" need_translate="false" value="Make a huge donation"/>
@@ -57,7 +67,7 @@
         <text id="button_40_3_header" need_translate="false" value="Refuse"/>
         <text id="button_40_3_hover_text" need_translate="false" value="No effects"/>
         <text id="button_40_3_text" need_translate="false" value="The loyalty to you: -%1%"/>
-        <text id="button_50_1_header" need_translate="false" value="Agree"/>
+        <text id="button_50_1_header" need_translate="false" value="Sponsor"/>
         <text id="button_50_1_hover_text" need_translate="false" value="The loyalty to you: +%1%"/>
         <text id="button_50_1_text" need_translate="false" value="The contribution is $%1"/>
         <text id="button_50_2_header" need_translate="false" value="Think"/>
@@ -87,6 +97,24 @@
         <text id="button_54_2_header" need_translate="false" value="Refuse"/>
         <text id="button_54_2_hover_text" need_translate="false" value="I've never made hasty decisions"/>
         <text id="button_54_2_text" need_translate="false" value=""/>
+        <text id="button_55_1_header" need_translate="false" value="Agree"/>
+        <text id="button_55_1_hover_text" need_translate="true" value=""/>
+        <text id="button_55_1_text" need_translate="true" value=""/>
+        <text id="button_55_2_header" need_translate="false" value="Refuse"/>
+        <text id="button_55_2_hover_text" need_translate="true" value=""/>
+        <text id="button_55_2_text" need_translate="true" value=""/>
+        <text id="button_56_1_header" need_translate="false" value="Agree"/>
+        <text id="button_56_1_hover_text" need_translate="false" value=""/>
+        <text id="button_56_1_text" need_translate="false" value=""/>
+        <text id="button_56_2_header" need_translate="false" value="Refuse"/>
+        <text id="button_56_2_hover_text" need_translate="false" value=""/>
+        <text id="button_56_2_text" need_translate="false" value=""/>
+        <text id="button_57_1_header" need_translate="false" value="Agree"/>
+        <text id="button_57_1_hover_text" need_translate="false" value=""/>
+        <text id="button_57_1_text" need_translate="false" value=""/>
+        <text id="button_57_2_header" need_translate="false" value="Refuse"/>
+        <text id="button_57_2_hover_text" need_translate="false" value=""/>
+        <text id="button_57_2_text" need_translate="false" value=""/>
         <text id="disabled_button_20_1_hover_text" need_translate="false" value="No effects"/>
         <text id="disabled_button_20_2_hover_text" need_translate="false" value="No effects"/>
         <text id="disabled_button_20_3_hover_text" need_translate="false" value="No effects"/>
@@ -109,6 +137,12 @@
         <text id="disabled_button_53_2_hover_text" need_translate="false" value="No effects"/>
         <text id="disabled_button_54_1_hover_text" need_translate="false" value="Not enough influence!&lt;br/&gt;Required  %1 %2"/>
         <text id="disabled_button_54_2_hover_text" need_translate="false" value=""/>
+        <text id="disabled_button_55_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_55_2_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_56_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_56_2_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_57_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_57_2_hover_text" need_translate="true" value=""/>
     </event_button>
     <event_type>
         <text id="1" need_translate="false" value="Random events"/>

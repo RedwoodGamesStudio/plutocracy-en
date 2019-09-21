@@ -39,6 +39,18 @@
         <text id="200" need_translate="false" value="What’s the cause for our meeting? I don’t have much time"/>
         <text id="201" need_translate="false" value="Why did you disturb me? Hope, it won’t take much time"/>
         <text id="202" need_translate="false" value="I hope i’m not gonna waste my time"/>
+        <text id="20500" need_translate="false" value="It's too little...Maybe raise the price to ${deal_sum} for {deal_influence} influence points?"/>
+        <text id="20501" need_translate="false" value="Nooo!...If you donated ${deal_sum} to me, i'd be ready to give my influence in the amount of {deal_influence} influence points."/>
+        <text id="20502" need_translate="false" value="So little?.. No way, buddy. I'm offering you ${deal_sum} for {deal_influence} influence points"/>
+        <text id="20503" need_translate="false" value="Stop trying my patience...It's extremely a low price! ${deal_sum} for {deal_influence} influence points is the minimum i can offer you..."/>
+        <text id="20504" need_translate="false" value="It's a small donation for such companies! What about ${deal_sum} for {deal_influence} influence points?"/>
+        <text id="20600" need_translate="false" value="I'm ready to accept your offer! ${deal_sum} for {deal_influence} influence points is exactly what i need."/>
+        <text id="20601" need_translate="false" value="I like doing business with you! I'm gonna take your donation of ${deal_sum} for {deal_influence} influence points"/>
+        <text id="20602" need_translate="false" value="I'm gonna accept your terms, i guess! ${deal_sum} for {deal_influence} influence points is a good deal!"/>
+        <text id="20700" need_translate="false" value="No! It’s too humiliatingly to keep negotiating with you..."/>
+        <text id="20701" need_translate="false" value="Are you kidding?? That’s price is too low! I ain't wanna keep negotiating with you.."/>
+        <text id="20702" need_translate="false" value="Are you insane? I never sell my shares for that price! You should think over your offer before the meeting!"/>
+        <text id="20703" need_translate="false" value="It’s outrageously to offer such terms! My attitude toward you is ruined!"/>
         <text id="300" need_translate="false" value="I didn't want to meet you. So..i'll do you a favor. What do you want?"/>
         <text id="301" need_translate="false" value="What do you want from me? We have no some mutual businesses"/>
         <text id="302" need_translate="false" value="No problem! I'll be glad to help you again!"/>
@@ -55,7 +67,51 @@
         <text id="602" need_translate="false" value="Well, i’m going to accept your terms and sell %1 shares of %2 company for $%3"/>
         <text id="700" need_translate="false" value="It’s so humiliating to keep negotiating with you!"/>
         <text id="701" need_translate="false" value="Are you kidding?? That’s price is too low! The negotiation is over! "/>
-        <text id="702" need_translate="false" value="Are you sane? I never sell my shares for that price! You should think over your offer before the meeting!"/>
+        <text id="702" need_translate="false" value="Are you insane? I never sell my shares for that price! You should think over your offer before the meeting!"/>
         <text id="703" need_translate="false" value="It’s outrageous to offer such terms! My attitude towards you is ruined!"/>
     </discussion_phrase>
+    <perks>
+        <text id="header_aikido" need_translate="false" value="Aikido"/>
+        <text id="header_distract" need_translate="false" value="Distract"/>
+        <text id="header_ideal_logic" need_translate="false" value="Perfect logic"/>
+        <text id="header_quick_answer" need_translate="false" value="Quick answer"/>
+        <text id="header_reduce_tension" need_translate="false" value="Reduce tension"/>
+        <text id="header_reinforce_argument" need_translate="false" value="Strong argument"/>
+        <text id="header_second_chance" need_translate="false" value="Second attempt"/>
+        <text id="header_time_is_money" need_translate="false" value="Time is money"/>
+        <text id="text_aikido" need_translate="false" value="The player and character impact level on price/chanсe will be changed"/>
+        <text id="text_distract" need_translate="false" value="The character will lose his concentration, and all his objections will be set to zero"/>
+        <text id="text_ideal_logic" need_translate="false" value="The first argument will get the value of the second one. It will make extra pressure on the character"/>
+        <text id="text_quick_answer" need_translate="false" value="Answer time will be decreased by 1"/>
+        <text id="text_reduce_tension" need_translate="false" value="Announcing your influential connects can help reduce tension from 1 to 30 mins"/>
+        <text id="text_reinforce_argument" need_translate="false" value="The values in your answers will be doubled. However, time will not be changed!"/>
+        <text id="text_second_chance" need_translate="false" value="Your answers will be randoming again"/>
+        <text id="text_time_is_money" need_translate="false" value="The argument value will get extra time to negotiate"/>
+    </perks>
+    <phrases>
+        <text id="opponent_authority_phrase_chance_1" need_translate="false" value="Probably, I'll find another sponsor..."/>
+        <text id="opponent_authority_phrase_chance_2" need_translate="false" value="You don't look like a generous sponsor. Do you really have money?"/>
+        <text id="opponent_authority_phrase_chance_3" need_translate="false" value="Unfortunately, I'm not sure i should make a deal with you"/>
+        <text id="opponent_authority_phrase_price_1" need_translate="false" value="No! I believe the mentioned price is a market-clearing one!"/>
+        <text id="opponent_authority_phrase_price_2" need_translate="false" value="I think the suggested price is too low. I may lose respect for myself from my partners"/>
+        <text id="opponent_authority_phrase_price_3" need_translate="false" value="My opponent’s campaign costs twice as much as mine. He'll be a serious opponent for me"/>
+        <text id="opponent_shares_buy_phrase_chance_1" need_translate="false" value="I don't have any reasons to sell the company's shares..."/>
+        <text id="opponent_shares_buy_phrase_chance_2" need_translate="false" value="I ain't wanna sell the company's shares because i see a great future ahead..."/>
+        <text id="opponent_shares_buy_phrase_chance_3" need_translate="false" value="At the moment, i'm not sure i should make a deal with you"/>
+        <text id="opponent_shares_buy_phrase_price_1" need_translate="false" value="That's too low a price! I won't sell my shares"/>
+        <text id="opponent_shares_buy_phrase_price_2" need_translate="false" value="I think you cut the price pretty much"/>
+        <text id="opponent_shares_buy_phrase_price_3" need_translate="false" value="Frankly speaking, the price could be higher"/>
+        <text id="player_authority_phrase_chance_1" need_translate="false" value="There's always a million reasons. I heard about a conflict with the governor..."/>
+        <text id="player_authority_phrase_chance_2" need_translate="false" value="Nobody knows what will happen tomorrow. Do you have enough finacional support?"/>
+        <text id="player_authority_phrase_chance_3" need_translate="false" value="Today i'm offering you the best terms to make a deal. Tomorrow everything may change, buddy..."/>
+        <text id="player_authority_phrase_price_1" need_translate="false" value="Take a look at an outlay...the price is more than a reasonable one!"/>
+        <text id="player_authority_phrase_price_2" need_translate="false" value="No way! I'm not ready to make a deal!"/>
+        <text id="player_authority_phrase_price_3" need_translate="false" value="Frankly speaking, the price could be lower"/>
+        <text id="player_shares_buy_phrase_chance_1" need_translate="false" value="There's always a million reasons. I heard about a conflict with the shareholder..."/>
+        <text id="player_shares_buy_phrase_chance_2" need_translate="false" value="Nobody knows what will happen tomorrow. Do you have enough finacional besides these shares?"/>
+        <text id="player_shares_buy_phrase_chance_3" need_translate="false" value="Today i'm offering you the best terms to make a deal. Tomorrow everything may change, buddy..."/>
+        <text id="player_shares_buy_phrase_price_1" need_translate="false" value="Take a look at this statistics...the price is more than a reasonable one!"/>
+        <text id="player_shares_buy_phrase_price_2" need_translate="false" value="Nope! I believe the mentioned price is a market-clearing one!"/>
+        <text id="player_shares_buy_phrase_price_3" need_translate="false" value="I'm not sure...analysts have a different opinion on this"/>
+    </phrases>
 </discussion_dialog>

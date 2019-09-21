@@ -1,66 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persons_characters>
     <ambitions>
-        <text id="00_shares_bank_description" need_translate="true" value=""/>
-        <text id="00_shares_bank_name" need_translate="false" value="I want to have shares of a bank"/>
-        <text id="01_shares_oil_production_description" need_translate="true" value=""/>
-        <text id="01_shares_oil_production_name" need_translate="false" value="I want to have shares of an oil producing company"/>
-        <text id="02_shares_transport_company_description" need_translate="true" value=""/>
-        <text id="02_shares_transport_company_name" need_translate="false" value="I want to have shares of a transport company"/>
-        <text id="03_shares_petroleum_refinery_description" need_translate="true" value=""/>
-        <text id="03_shares_petroleum_refinery_name" need_translate="false" value="I want to have shares of an oil refining company"/>
-        <text id="04_control_shares_pack_of_bank_description" need_translate="true" value=""/>
-        <text id="04_control_shares_pack_of_bank_name" need_translate="true" value=""/>
-        <text id="05_control_shares_pack_of_oil_production_description" need_translate="true" value=""/>
-        <text id="05_control_shares_pack_of_oil_production_name" need_translate="true" value=""/>
-        <text id="06_control_shares_pack_of_transport_company_description" need_translate="true" value=""/>
-        <text id="06_control_shares_pack_of_transport_company_name" need_translate="true" value=""/>
-        <text id="07_control_shares_pack_of_petroleum_refinery_description" need_translate="true" value=""/>
-        <text id="07_control_shares_pack_of_petroleum_refinery_name" need_translate="true" value=""/>
-        <text id="08_accumulation_description" need_translate="true" value=""/>
-        <text id="08_accumulation_name" need_translate="false" value="I want to be an election campaign donor"/>
-        <text id="09_found_bank_description" need_translate="true" value=""/>
-        <text id="09_found_bank_name" need_translate="true" value=""/>
-        <text id="10_found_oil_production_description" need_translate="true" value=""/>
-        <text id="10_found_oil_production_name" need_translate="true" value=""/>
-        <text id="11_found_transport_company_description" need_translate="true" value=""/>
-        <text id="11_found_transport_company_name" need_translate="true" value=""/>
-        <text id="12_found_petroleum_refinery_description" need_translate="true" value=""/>
-        <text id="12_found_petroleum_refinery_name" need_translate="true" value=""/>
-        <text id="13_add_to_collection_aircrafts_description" need_translate="true" value=""/>
-        <text id="13_add_to_collection_aircrafts_name" need_translate="true" value=""/>
-        <text id="14_add_to_collection_pictures_description" need_translate="true" value=""/>
-        <text id="14_add_to_collection_pictures_name" need_translate="true" value=""/>
-        <text id="15_add_to_collection_horses_description" need_translate="true" value=""/>
-        <text id="15_add_to_collection_horses_name" need_translate="true" value=""/>
-        <text id="16_add_to_collection_cars_description" need_translate="true" value=""/>
-        <text id="16_add_to_collection_cars_name" need_translate="true" value=""/>
-        <text id="17_add_to_collection_coins_description" need_translate="true" value=""/>
-        <text id="17_add_to_collection_coins_name" need_translate="true" value=""/>
-        <text id="18_add_to_collection_houses_description" need_translate="true" value=""/>
-        <text id="18_add_to_collection_houses_name" need_translate="true" value=""/>
-        <text id="19_add_to_collection_yachts_description" need_translate="true" value=""/>
-        <text id="19_add_to_collection_yachts_name" need_translate="true" value=""/>
-        <text id="20_add_new_friends_description" need_translate="true" value=""/>
-        <text id="20_add_new_friends_name" need_translate="true" value=""/>
-        <text id="21_want_to_be_governor_description" need_translate="true" value=""/>
-        <text id="21_want_to_be_governor_name" need_translate="false" value="I want to meet a governor"/>
-        <text id="22_want_to_be_treasurer_description" need_translate="true" value=""/>
-        <text id="22_want_to_be_treasurer_name" need_translate="false" value="I want to meet a treasurer"/>
-        <text id="23_want_to_be_judge_description" need_translate="true" value=""/>
-        <text id="23_want_to_be_judge_name" need_translate="false" value="I want to meet a judge"/>
-        <text id="24_want_to_be_prosecutor_description" need_translate="true" value=""/>
-        <text id="24_want_to_be_prosecutor_name" need_translate="false" value="I want to meet a prosecutor"/>
-        <text id="25_want_to_be_police_chief_description" need_translate="true" value=""/>
-        <text id="25_want_to_be_police_chief_name" need_translate="false" value="I want to meet a police chief"/>
-        <text id="26_want_to_be_congressman_description" need_translate="true" value=""/>
-        <text id="26_want_to_be_congressman_name" need_translate="false" value="I want to meet a congressman"/>
-        <text id="27_want_to_be_senator_description" need_translate="true" value=""/>
-        <text id="27_want_to_be_senator_name" need_translate="false" value="I want to meet a senator"/>
-        <text id="28_kill_all_enemies_description" need_translate="true" value=""/>
-        <text id="28_kill_all_enemies_name" need_translate="true" value=""/>
-        <text id="29_buy_all_shares_description" need_translate="true" value=""/>
-        <text id="29_buy_all_shares_name" need_translate="true" value=""/>
+        <text id="00_shares_bank_description" need_translate="false" value="Get a bank's shares"/>
+        <text id="00_shares_bank_name" need_translate="false" value="I want to get shares of a bank"/>
+        <text id="01_shares_oil_production_description" need_translate="false" value="The character wants to get the company's shares. If you sell the shares to the character, you will be able to make money and increase his loyalty to yourself"/>
+        <text id="01_shares_oil_production_name" need_translate="false" value="I want to get shares of an oil producing company"/>
+        <text id="02_shares_transport_company_description" need_translate="false" value="The character wants to get the company's shares. If you sell the shares to the character, you will be able to make money and increase his loyalty to yourself"/>
+        <text id="02_shares_transport_company_name" need_translate="false" value="I want to get shares of a transport company"/>
+        <text id="03_shares_petroleum_refinery_description" need_translate="false" value="The character wants to get the company's shares. If you sell the shares to the character, you will be able to make money and increase his loyalty to yourself"/>
+        <text id="03_shares_petroleum_refinery_name" need_translate="false" value="I want to get shares of an oil refining company"/>
+        <text id="04_control_shares_pack_of_bank_description" need_translate="false" value="Now developing"/>
+        <text id="04_control_shares_pack_of_bank_name" need_translate="false" value="Sell bank's shares"/>
+        <text id="05_control_shares_pack_of_oil_production_description" need_translate="false" value="Now developing"/>
+        <text id="05_control_shares_pack_of_oil_production_name" need_translate="false" value="Sell oil company's shares"/>
+        <text id="06_control_shares_pack_of_transport_company_description" need_translate="false" value="Now developing"/>
+        <text id="06_control_shares_pack_of_transport_company_name" need_translate="false" value="Sell transport company's shares"/>
+        <text id="07_control_shares_pack_of_petroleum_refinery_description" need_translate="false" value="Now developing"/>
+        <text id="07_control_shares_pack_of_petroleum_refinery_name" need_translate="false" value="Sell oil refining company's shares"/>
+        <text id="08_finance_campaign_description" need_translate="false" value="Get influence points and loyalty by financing the election campaign of officials, politicians"/>
+        <text id="08_finance_campaign_name" need_translate="false" value="Finance election campaign"/>
+        <text id="09_found_bank_description" need_translate="false" value="Now developing"/>
+        <text id="09_found_bank_name" need_translate="false" value="Now developing"/>
+        <text id="10_found_oil_production_description" need_translate="false" value="Now developing"/>
+        <text id="10_found_oil_production_name" need_translate="false" value="Now developing"/>
+        <text id="11_add_to_collection_antiques_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself."/>
+        <text id="11_add_to_collection_antiques_name" need_translate="false" value="Buy antiques"/>
+        <text id="12_add_to_collection_weapons_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself."/>
+        <text id="12_add_to_collection_weapons_name" need_translate="false" value="Buy weapons"/>
+        <text id="13_add_to_collection_trophies_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself."/>
+        <text id="13_add_to_collection_trophies_name" need_translate="false" value="Buy trophies"/>
+        <text id="14_add_to_collection_pictures_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself"/>
+        <text id="14_add_to_collection_pictures_name" need_translate="false" value="Buy pictures"/>
+        <text id="15_add_to_collection_horses_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself"/>
+        <text id="15_add_to_collection_horses_name" need_translate="false" value="Buy horses"/>
+        <text id="16_add_to_collection_cars_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself"/>
+        <text id="16_add_to_collection_cars_name" need_translate="false" value="Buy cars"/>
+        <text id="17_add_to_collection_coins_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself"/>
+        <text id="17_add_to_collection_coins_name" need_translate="false" value="Buy coins"/>
+        <text id="18_add_to_collection_houses_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself"/>
+        <text id="18_add_to_collection_houses_name" need_translate="false" value="Buy houses"/>
+        <text id="19_add_to_collection_yachts_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself"/>
+        <text id="19_add_to_collection_yachts_name" need_translate="false" value="Buy yachts"/>
+        <text id="20_add_to_collection_alco_description" need_translate="false" value="Win auctions, sell different auction items to characters to make money or increase loyalty to yourself"/>
+        <text id="20_add_to_collection_alco_name" need_translate="false" value="Buy alcohol/tobacco"/>
+        <text id="21_want_to_be_governor_description" need_translate="false" value="You need to spend a lot of money to finace the election campaign. If everything is ok, you will get the character's loyalty to yourself"/>
+        <text id="21_want_to_be_governor_name" need_translate="false" value="I want to take the governor's office"/>
+        <text id="22_want_to_be_treasurer_description" need_translate="false" value="You need to spend a lot of money to finace the election campaign. If everything is ok, you will get the character's loyalty to yourself"/>
+        <text id="22_want_to_be_treasurer_name" need_translate="false" value="I want to take the treasurer's office"/>
+        <text id="23_want_to_be_judge_description" need_translate="false" value="You need to spend a lot of money to finace the election campaign. If everything is ok, you will get the character's loyalty to yourself"/>
+        <text id="23_want_to_be_judge_name" need_translate="false" value="I want to take the judge's office"/>
+        <text id="24_want_to_be_prosecutor_description" need_translate="false" value="You need to spend a lot of money to finace the election campaign. If everything is ok, you will get the character's loyalty to yourself"/>
+        <text id="24_want_to_be_prosecutor_name" need_translate="false" value="I want to take the prosecutor's office"/>
+        <text id="25_want_to_be_police_chief_description" need_translate="false" value="You need to spend a lot of money to finace the election campaign. If everything is ok, you will get the character's loyalty to yourself"/>
+        <text id="25_want_to_be_police_chief_name" need_translate="false" value="I want to take the police chief's office"/>
+        <text id="26_want_to_be_congressman_description" need_translate="false" value="You need to spend a lot of money to finace the election campaign. If everything is ok, you will get the character's loyalty to yourself"/>
+        <text id="26_want_to_be_congressman_name" need_translate="false" value="I want to take the congressman's office"/>
+        <text id="27_want_to_be_senator_description" need_translate="false" value="You need to spend a lot of money to finace the election campaign. If everything is ok, you will get the character's loyalty to yourself"/>
+        <text id="27_want_to_be_senator_name" need_translate="false" value="I want to take the senator's office"/>
+        <text id="28_kill_all_enemies_description" need_translate="false" value="Now developing"/>
+        <text id="28_kill_all_enemies_name" need_translate="false" value="Now developing"/>
+        <text id="29_buy_all_shares_description" need_translate="false" value="Now developing"/>
+        <text id="29_buy_all_shares_name" need_translate="false" value="Now developing"/>
+        <text id="30_add_new_friends_description" need_translate="false" value="Now developing"/>
+        <text id="30_add_new_friends_name" need_translate="false" value="Now developing"/>
+        <text id="31_found_petroleum_refinery_description" need_translate="false" value="Now developing"/>
+        <text id="31_found_petroleum_refinery_name" need_translate="false" value="Now developing"/>
+        <text id="32_found_transport_company_description" need_translate="false" value="Now developing"/>
+        <text id="32_found_transport_company_name" need_translate="false" value="Now developing"/>
+        <text id="33_sell_from_collection_antiques_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="33_sell_from_collection_antiques_name" need_translate="false" value="Sell antiques"/>
+        <text id="34_sell_from_collection_weapons_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="34_sell_from_collection_weapons_name" need_translate="false" value="Sell weapons"/>
+        <text id="35_sell_from_collection_trophies_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="35_sell_from_collection_trophies_name" need_translate="false" value="Sell trophies"/>
+        <text id="36_sell_from_collection_pictures_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="36_sell_from_collection_pictures_name" need_translate="false" value="Sell pictures"/>
+        <text id="37_sell_from_collection_horses_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="37_sell_from_collection_horses_name" need_translate="false" value="Sell horses"/>
+        <text id="38_sell_from_collection_cars_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="38_sell_from_collection_cars_name" need_translate="false" value="Sell cars"/>
+        <text id="39_sell_from_collection_coins_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="39_sell_from_collection_coins_name" need_translate="false" value="Sell coins"/>
+        <text id="40_sell_from_collection_houses_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="40_sell_from_collection_houses_name" need_translate="false" value="Sell houses"/>
+        <text id="41_sell_from_collection_yachts_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="41_sell_from_collection_yachts_name" need_translate="false" value="Sell yachts"/>
+        <text id="42_sell_from_collection_alco_description" need_translate="false" value="Buy different items from characters who have the ambition. You can get not only some item, but also increase the character's loyalty to yourself"/>
+        <text id="42_sell_from_collection_alco_name" need_translate="false" value="Sell alcohol/tobacco"/>
+        <text id="43_become_an_director_description" need_translate="false" value="Help him take the position of director so that he realizes his ambition"/>
+        <text id="43_become_an_director_name" need_translate="false" value="Director"/>
+        <text id="44_become_an_assistant_description" need_translate="false" value="Make him your assistant so that he realizes his ambition"/>
+        <text id="44_become_an_assistant_name" need_translate="false" value="Assistant"/>
+        <text id="45_become_in_director_board_description" need_translate="false" value="Help him get a seat on the Board of Directors so that he realizes his ambition"/>
+        <text id="45_become_in_director_board_name" need_translate="false" value="Board of directors"/>
     </ambitions>
     <categories>
         <text id="0" need_translate="true" value=""/>
@@ -72,6 +104,42 @@
         <text id="6" need_translate="true" value=""/>
         <text id="7" need_translate="true" value=""/>
     </categories>
+    <coins_descriptions>
+        <text id="bandit" need_translate="false" value="Now developing"/>
+        <text id="congressman" need_translate="false" value="Now developing"/>
+        <text id="courtesan" need_translate="false" value="Now developing"/>
+        <text id="detective" need_translate="false" value="Now developing"/>
+        <text id="diplomat" need_translate="false" value="Now developing"/>
+        <text id="financier" need_translate="false" value="Now developing"/>
+        <text id="fireman" need_translate="false" value="Now developing"/>
+        <text id="governor" need_translate="false" value="Now developing"/>
+        <text id="journalist" need_translate="false" value="Now developing"/>
+        <text id="judge" need_translate="false" value="Now developing"/>
+        <text id="killer" need_translate="false" value="Now developing"/>
+        <text id="police_chief" need_translate="false" value="Now developing"/>
+        <text id="prosecutor" need_translate="false" value="Now developing"/>
+        <text id="senator" need_translate="false" value="Now developing"/>
+        <text id="trasher" need_translate="false" value="Now developing"/>
+        <text id="treasurer" need_translate="false" value="Now developing"/>
+    </coins_descriptions>
+    <coins_names>
+        <text id="bandit" need_translate="false" value="Bandit"/>
+        <text id="congressman" need_translate="false" value="Congressman"/>
+        <text id="courtesan" need_translate="false" value="Courtesan"/>
+        <text id="detective" need_translate="false" value="Detective"/>
+        <text id="diplomat" need_translate="false" value="Diplomat"/>
+        <text id="financier" need_translate="false" value="Financier"/>
+        <text id="fireman" need_translate="false" value="Saboteur"/>
+        <text id="governor" need_translate="false" value="Governor"/>
+        <text id="journalist" need_translate="false" value="Journalist"/>
+        <text id="judge" need_translate="false" value="Judge"/>
+        <text id="killer" need_translate="false" value="Hitman"/>
+        <text id="police_chief" need_translate="false" value="Police chief"/>
+        <text id="prosecutor" need_translate="false" value="Prosecutor"/>
+        <text id="senator" need_translate="false" value="Senator"/>
+        <text id="trasher" need_translate="false" value="Bodyguard"/>
+        <text id="treasurer" need_translate="false" value="Treasurer"/>
+    </coins_names>
     <description_player>
         <text id="aggressive" need_translate="false" value="The character's loyalty to you will decrease 2 times more in case of the failed negotiation"/>
         <text id="alcoholic" need_translate="false" value="There is a 20% chance that the character will not come to the negotiation"/>
@@ -138,6 +206,7 @@
         <text id="thrifty" need_translate="false" value="-20% to the success of Gangster"/>
         <text id="trader" need_translate="false" value="The character will drop the price 2 times lower than usual in case of a counteroffer"/>
         <text id="trophies" need_translate="false" value="Trophies"/>
+        <text id="unknown" need_translate="false" value="It's unknown. You need to learn the character"/>
         <text id="wasteful" need_translate="false" value="The negotiation will be 2 times cheaper"/>
         <text id="weapons" need_translate="false" value="Weapons"/>
         <text id="yachts" need_translate="false" value="Yachts"/>

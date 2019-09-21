@@ -21,8 +21,8 @@
         <text id="18_value" need_translate="true" value=""/>
         <text id="19_title" need_translate="true" value=""/>
         <text id="19_value" need_translate="true" value=""/>
-        <text id="1_title" need_translate="true" value=""/>
-        <text id="1_value" need_translate="true" value=""/>
+        <text id="1_title" need_translate="false" value="Days"/>
+        <text id="1_value" need_translate="false" value="Time is your important resource!"/>
         <text id="20_title" need_translate="true" value=""/>
         <text id="20_value" need_translate="true" value=""/>
         <text id="21_title" need_translate="true" value=""/>
@@ -51,22 +51,22 @@
         <text id="31_value" need_translate="false" value="If your reputation is better than your opponent's reputation, it will be much easier to make deals. However, you will get the reputation penalty -1 point"/>
         <text id="32_title" need_translate="true" value=""/>
         <text id="32_value" need_translate="true" value=""/>
-        <text id="33_title" need_translate="true" value=""/>
-        <text id="33_value" need_translate="true" value=""/>
+        <text id="33_title" need_translate="false" value="Connections"/>
+        <text id="33_value" need_translate="false" value="The characters and player' connections"/>
         <text id="34_title" need_translate="false" value="Map"/>
         <text id="34_value" need_translate="false" value="Movement between states"/>
-        <text id="35_title" need_translate="true" value=""/>
-        <text id="35_value" need_translate="true" value=""/>
-        <text id="36_title" need_translate="true" value=""/>
-        <text id="36_value" need_translate="true" value=""/>
-        <text id="37_title" need_translate="true" value=""/>
-        <text id="37_value" need_translate="true" value=""/>
+        <text id="35_title" need_translate="false" value="Finance"/>
+        <text id="35_value" need_translate="false" value="Total the player's statistics"/>
+        <text id="36_title" need_translate="false" value="About player"/>
+        <text id="36_value" need_translate="false" value="Player information"/>
+        <text id="37_title" need_translate="false" value="Luxuries"/>
+        <text id="37_value" need_translate="false" value="Click to see your luxuries"/>
         <text id="38_title" need_translate="true" value=""/>
         <text id="38_value" need_translate="true" value=""/>
         <text id="39_text" need_translate="false" value="The activity field of the company"/>
         <text id="39_title" need_translate="false" value="Company type"/>
-        <text id="3_title" need_translate="false" value="State"/>
-        <text id="3_value" need_translate="false" value="Here you can see a list of companies based in the state"/>
+        <text id="3_title" need_translate="false" value="Office"/>
+        <text id="3_value" need_translate="false" value=""/>
         <text id="40_text" need_translate="false" value="Buy 51% of the shares and take control of the company"/>
         <text id="40_title" need_translate="false" value="Control"/>
         <text id="41_text" need_translate="false" value="Appoint the best director in order to improve the company management"/>
@@ -85,8 +85,12 @@
         <text id="47_title" need_translate="false" value="Market price"/>
         <text id="4_title" need_translate="false" value="Achievements and elite"/>
         <text id="4_value" need_translate="false" value="Your achievements and leaderboard"/>
-        <text id="50_title" need_translate="false" value="Time left"/>
-        <text id="50_value" need_translate="false" value="The time on the clock dial is the number of attempts to make a deal"/>
+        <text id="51_title" need_translate="false" value="Message"/>
+        <text id="51_value" need_translate="false" value="You don't have enough money!"/>
+        <text id="52_title" need_translate="false" value="You don't have enough money to participate"/>
+        <text id="52_value" need_translate="true" value=""/>
+        <text id="53_title" need_translate="false" value="It's too late!"/>
+        <text id="53_value" need_translate="true" value=""/>
         <text id="5_title" need_translate="false" value="Federal government"/>
         <text id="5_value" need_translate="false" value="lobbying laws, sponsoring politicians or officials"/>
         <text id="6_title" need_translate="false" value="News"/>
