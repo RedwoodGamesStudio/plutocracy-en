@@ -29,16 +29,18 @@
         <text id="58_header" need_translate="false" value="Ambition"/>
         <text id="59_description" need_translate="false" value="%1%2 has wanted to be a member of the board of directors of a company all his life. Can you help him?"/>
         <text id="59_header" need_translate="false" value="Ambition"/>
+        <text id="60_description" need_translate="false" value="I want to sell %2's shares from %3 state. If you help me, i will be grateful"/>
+        <text id="60_header" need_translate="false" value="Sell shares"/>
     </event>
     <event_button>
         <text id="button_20_1_header" need_translate="false" value="Make a huge donation"/>
-        <text id="button_20_1_hover_text" need_translate="false" value="%1's loyalty to you: +%2%\nReputation: +%3"/>
+        <text id="button_20_1_hover_text" need_translate="false" value="%1's loyalty to you: +%2%\nInfluence: +%3"/>
         <text id="button_20_1_text" need_translate="false" value="By making a donation of $%1, you create opportunities  to make new friends, and sometimes such an act of donating cash can do the trick and reinvigorate your life!"/>
         <text id="button_20_2_header" need_translate="false" value="Make a large donation"/>
-        <text id="button_20_2_hover_text" need_translate="false" value="%1's loyalty to you: +%2%\nReputation: +%3"/>
+        <text id="button_20_2_hover_text" need_translate="false" value="%1's loyalty to you: +%2%\nInfluence: +%3"/>
         <text id="button_20_2_text" need_translate="false" value="It's the most right track to earn the respect of others by making a donation of $%1"/>
         <text id="button_20_3_header" need_translate="false" value="Refuse"/>
-        <text id="button_20_3_hover_text" need_translate="false" value="The guests loyalty to you: +%1%\nReputation: %2"/>
+        <text id="button_20_3_hover_text" need_translate="false" value="The guests loyalty to you: +%1%\nInfluence: %2"/>
         <text id="button_20_3_text" need_translate="false" value="I don't think it makes sense"/>
         <text id="button_21_1_header" need_translate="false" value="Come with an expensive gift"/>
         <text id="button_21_1_hover_text" need_translate="false" value="Money: -$%1\nThe loyalty to you: +%2%"/>
@@ -115,6 +117,12 @@
         <text id="button_57_2_header" need_translate="false" value="Refuse"/>
         <text id="button_57_2_hover_text" need_translate="false" value=""/>
         <text id="button_57_2_text" need_translate="false" value=""/>
+        <text id="button_60_1_header" need_translate="false" value="Agree"/>
+        <text id="button_60_1_hover_text" need_translate="false" value=""/>
+        <text id="button_60_1_text" need_translate="false" value=""/>
+        <text id="button_60_2_header" need_translate="false" value="Think"/>
+        <text id="button_60_2_hover_text" need_translate="false" value=""/>
+        <text id="button_60_2_text" need_translate="false" value=""/>
         <text id="disabled_button_20_1_hover_text" need_translate="false" value="No effects"/>
         <text id="disabled_button_20_2_hover_text" need_translate="false" value="No effects"/>
         <text id="disabled_button_20_3_hover_text" need_translate="false" value="No effects"/>
@@ -143,6 +151,8 @@
         <text id="disabled_button_56_2_hover_text" need_translate="true" value=""/>
         <text id="disabled_button_57_1_hover_text" need_translate="true" value=""/>
         <text id="disabled_button_57_2_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_60_1_hover_text" need_translate="true" value=""/>
+        <text id="disabled_button_60_2_hover_text" need_translate="true" value=""/>
     </event_button>
     <event_type>
         <text id="1" need_translate="false" value="Random events"/>

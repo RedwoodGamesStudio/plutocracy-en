@@ -20,33 +20,50 @@
     </effects>
     <hints>
         <text id="already_tried_to_corrupt" need_translate="false" value="You can bribe the official only once!"/>
-        <text id="corrupt_governor" need_translate="false" value="The governor is able to veto a bill or sign one if congressmen don't get %1 votes. However, it may ruin his reputation!&lt;br&gt;Price:&lt;br&gt;%2"/>
-        <text id="government_contract" need_translate="false" value="If you have a good relationship with the governor, you may get a two-year government contract with your company, selling goods 3 times more expensive.&lt;br&gt;Price:&lt;br&gt;%1"/>
+        <text id="corrupt_governor" need_translate="false" value="The governor is able to veto a bill or sign one if congressmen don't get %1 votes. However, it may ruin his influence!&lt;br&gt;Price:&lt;br&gt;%2"/>
+        <text id="government_contract" need_translate="false" value="If you have a good relationship with the governor, you can get a government contract with your company that will allow you to sell goods more expensive."/>
+        <text id="hint" need_translate="false" value="&lt;br&gt;&lt;br&gt;{hint}"/>
         <text id="low_loyality" need_translate="false" value="Low loyalty!"/>
         <text id="make_a_deal" need_translate="false" value="If you have some dirt on the character, the prosecutor may open a criminal case...&lt;br&gt;Price:&lt;br&gt;%1"/>
         <text id="no_assistants" need_translate="false" value="No hired assistants!"/>
+        <text id="police_chief_deal" need_translate="false" value="The police chief can fake evidence to blackmail and manipulate"/>
+        <text id="prosecutor_investigation" need_translate="false" value="If the prosecutor is your puppet, you can simply resign any official. Just start an investigation..."/>
         <text id="receive_a_grant" need_translate="false" value="If you have a good relationship with the treasurer, you can get a grant of up to 50% of the outlay cost to build new buildings in your company.&lt;br&gt;&lt;br&gt;Price:&lt;br&gt;%1"/>
+        <text id="treasurer_grant" need_translate="false" value="The treasurer can provide soft loans at a subsidized rate of up to 90%. This is the best way to develop."/>
     </hints>
     <other>
         <text id="accept_law" need_translate="false" value="Ratify"/>
         <text id="btn_ok" need_translate="false" value="Ok"/>
         <text id="chance_requirements" need_translate="false" value="Chance: %1"/>
-        <text id="corrupted_earlier" need_translate="false" value="The official has already had this case!"/>
+        <text id="corrupted_earlier" need_translate="false" value="The official has already had this case! You can use him on {date}"/>
         <text id="government_contract_header" need_translate="false" value="Government contract"/>
         <text id="government_contract_text" need_translate="false" value="You can only have one government contract for the company type like this"/>
         <text id="governor_disabled" need_translate="false" value="The governor is sick!"/>
+        <text id="governor_is_dummy" need_translate="false" value="Puppet-governor"/>
+        <text id="governor_is_friendly" need_translate="false" value="Friend-governor"/>
         <text id="incorrect_law_stage" need_translate="false" value="The governor has not got the current bill yet!"/>
         <text id="influence_requirements" need_translate="false" value="Influence: %1"/>
         <text id="judge_disabled" need_translate="false" value="The judge is sick!"/>
-        <text id="money_requirements" need_translate="false" value="Money: %1"/>
+        <text id="money_requirements" need_translate="false" value="Bribe sum: %1"/>
         <text id="no_authority_marks" need_translate="false" value="The official is not still ready to provide support!"/>
         <text id="not_compromised" need_translate="false" value="No dirt on %1!"/>
+        <text id="not_enough_evidence" need_translate="false" value="Not enough evidence to refer the case to the prosecutor"/>
         <text id="not_enough_influence" need_translate="false" value="You don't have enough influence! Required %1"/>
         <text id="not_enough_money" need_translate="false" value="You don't have enough money!"/>
+        <text id="person_is_not_authority" need_translate="false" value="Dirt can only be used on officials and politicians!"/>
+        <text id="player_is_not_shareholder" need_translate="false" value="You are not a shareholder of {company_name}!"/>
         <text id="police_chief_disabled" need_translate="false" value="The police chief is sick!"/>
+        <text id="police_chief_is_dummy" need_translate="false" value="Puppet-police chief"/>
+        <text id="police_chief_is_friendly" need_translate="false" value="Friend-police chief"/>
         <text id="prosecutor_disabled" need_translate="false" value="The prosecutor is sick!"/>
+        <text id="prosecutor_is_dummy" need_translate="false" value="Puppet-prosecutor"/>
+        <text id="prosecutor_is_friendly" need_translate="false" value="Friend-prosecutor"/>
         <text id="reject_law" need_translate="false" value="Reject"/>
-        <text id="reputation_requirements" need_translate="false" value="Reputation: %1"/>
+        <text id="reputation_requirements" need_translate="false" value="Influence: %1"/>
+        <text id="skill_is_not_learned" need_translate="false" value="Skill {skill_name} is not reached!"/>
+        <text id="treasurer_is_dummy" need_translate="false" value="Puppet-treasurer"/>
+        <text id="treasurer_is_friendly" need_translate="false" value="Friend-treasurer"/>
+        <text id="two_condition" need_translate="false" value="One of two must be performed: &lt;br&gt;{first_condition}&lt;br&gt;{second_condition}"/>
         <text id="veto_is_not_possible" need_translate="false" value="The legislture has got critical percent of votes. Unfortunately, the governor is no longer able to influence anything!"/>
         <text id="year_genetive_multiple" need_translate="false" value="years"/>
         <text id="year_genetive_single" need_translate="false" value="year"/>
@@ -76,10 +93,10 @@
         <text id="court_popup_3_disabled_hover" need_translate="false" value=""/>
         <text id="court_popup_3_hover" need_translate="false" value="Consequences:\n{positive_chance}%: Acquittal;\n{negative_chance}%: Quilty verdict"/>
         <text id="court_popup_fail_header" need_translate="false" value="Trial"/>
-        <text id="court_popup_fail_text" need_translate="false" value="A guilty verdict was pronounced by the judge! Your reputation was ruined..."/>
+        <text id="court_popup_fail_text" need_translate="false" value="A guilty verdict was pronounced by the judge! Your influence was ruined..."/>
         <text id="court_popup_header" need_translate="false" value="Trial"/>
         <text id="court_popup_success_header" need_translate="false" value="Acquittal"/>
-        <text id="court_popup_success_text" need_translate="false" value="An acquittal was pronounced! Your reputation is OK!"/>
+        <text id="court_popup_success_text" need_translate="false" value="An acquittal was pronounced! Your influence is OK!"/>
         <text id="court_popup_text" need_translate="false" value="{styles}The detective has got evidence! The case has been referred to judge {judge_name}. Prosecutor {prosecutor_name} will be representing the government in the case"/>
         <text id="court_popup_text_to_company" need_translate="false" value="{styles}Prosecutor {prosecutor_name} is interested in an accident in {company_name} company. The case is referred to judge {judge_name}. The result is up to the prosecutor and judge's loyalty to you."/>
         <text id="freedom_popup_header" need_translate="false" value="Freedom"/>
@@ -88,6 +105,10 @@
         <text id="grant_popup_fail_text" need_translate="false" value="{styles}Unfortunately, tresuarer {treasurer_name} refused to help you get a grant. Try to improve his loyalty to yourself!"/>
         <text id="grant_popup_success_header" need_translate="false" value="State grant"/>
         <text id="grant_popup_success_text" need_translate="false" value="{styles}Tresuarer {treasurer_name} agrees to help you get a grant. As a result, you'll get {discount}% off to build new buildings."/>
+        <text id="hide_accident_popup_fail_header" need_translate="false" value="Hide accident"/>
+        <text id="hide_accident_popup_fail_text" need_translate="false" value="The prosecutor were trying to close the case but it's too late"/>
+        <text id="hide_accident_popup_success_header" need_translate="false" value="Hide accident"/>
+        <text id="hide_accident_popup_success_text" need_translate="false" value="The prosecutor used all his power to avoid checking the working conditions"/>
         <text id="hide_evidence_popup_1" need_translate="false" value="Corrupt detective"/>
         <text id="hide_evidence_popup_1_disabled_hover" need_translate="false" value=""/>
         <text id="hide_evidence_popup_1_hover" need_translate="false" value="Price:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Consequences:&lt;br&gt;{positive_chance}%: Case closed;&lt;br&gt;{negative_chance}%: Detective's refusal"/>
@@ -118,7 +139,7 @@
         <text id="jail_popup_killer_text" need_translate="false" value="A guilty verdict was pronounced by the judge! Probably, you will be gone to prison"/>
         <text id="jail_popup_success_header" need_translate="false" value="Pardon"/>
         <text id="jail_popup_success_text" need_translate="false" value="You have got the governor's pardon. You are free!"/>
-        <text id="jail_popup_text" need_translate="false" value="A guilty verdict was pronounced by the judge! Probably, you will be gone to prison. You are prohibited from moving between states, negotiating! Futhermore, you reputation is ruined by -{reputation}"/>
+        <text id="jail_popup_text" need_translate="false" value="A guilty verdict was pronounced by the judge! Probably, you will be gone to prison. You are prohibited from moving between states, negotiating! Futhermore, your influence is ruined by -{reputation}"/>
         <text id="make_a_deal_popup_1" need_translate="false" value="Guilty verdict"/>
         <text id="make_a_deal_popup_1_disabled_hover" need_translate="false" value=""/>
         <text id="make_a_deal_popup_1_hover" need_translate="false" value="Price:&lt;br&gt;{hint}"/>
@@ -130,7 +151,7 @@
         <text id="make_a_deal_popup_judge_fail_header" need_translate="false" value="Judgement"/>
         <text id="make_a_deal_popup_judge_fail_text" need_translate="false" value="The defendant was found not guilty! It feels as if he could bribe someone...He was succeeded in getting away with that"/>
         <text id="make_a_deal_popup_judge_success_header" need_translate="false" value="Judgement"/>
-        <text id="make_a_deal_popup_judge_success_text" need_translate="false" value="{styles}Judge {person_name} sentenced {person_name} to {years_in_jail} {year_name} in prison with confiscation of $ {money_penalty}. It'll allow to restrict {person_name}'s actions as well as hitting his reputation by {reputation_penalty}. The loyalty to him will be ruined by {loyality_penalty}"/>
+        <text id="make_a_deal_popup_judge_success_text" need_translate="false" value="{styles}Judge {person_name} sentenced {person_name} to {years_in_jail} {year_name} in prison with confiscation of $ {money_penalty}. It'll allow to restrict {person_name}'s actions as well as hitting his influence by {reputation_penalty}. The loyalty to him will be ruined by {loyality_penalty}"/>
         <text id="make_a_deal_popup_success_header" need_translate="false" value="Criminal case"/>
         <text id="make_a_deal_popup_success_text" need_translate="false" value="{styles}Prosecutor {prosecutor_name} will be glad to help you out! He has opened a criminal case against {person_name} by using the dirt on your opponent. Judge {judge_name} is gonna make a decision about the defendant's guilt or innocence"/>
         <text id="official_result_header_1" need_translate="false" value="The official refused to help you"/>

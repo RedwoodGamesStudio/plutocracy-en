@@ -111,7 +111,7 @@
     <player_resource>
         <text id="1" need_translate="false" value="Money (rout)"/>
         <text id="2" need_translate="false" value="Influence"/>
-        <text id="3" need_translate="false" value="Reputation"/>
+        <text id="3" need_translate="false" value="Influence"/>
         <text id="4" need_translate="false" value="Prestige"/>
         <text id="5" need_translate="false" value="Loyalty"/>
     </player_resource>

@@ -47,8 +47,8 @@
         <text id="2_value" need_translate="false" value="Movement between states"/>
         <text id="30_title" need_translate="true" value=""/>
         <text id="30_value" need_translate="true" value=""/>
-        <text id="31_title" need_translate="false" value="Reputation"/>
-        <text id="31_value" need_translate="false" value="If your reputation is better than your opponent's reputation, it will be much easier to make deals. However, you will get the reputation penalty -1 point"/>
+        <text id="31_title" need_translate="false" value="Influence"/>
+        <text id="31_value" need_translate="false" value="If your influence is better than your opponent's influence, it will be much easier to make deals. By interacting with the characters who have a bad influence, you will be lowering yours"/>
         <text id="32_title" need_translate="true" value=""/>
         <text id="32_value" need_translate="true" value=""/>
         <text id="33_title" need_translate="false" value="Connections"/>
@@ -61,8 +61,8 @@
         <text id="36_value" need_translate="false" value="Player information"/>
         <text id="37_title" need_translate="false" value="Luxuries"/>
         <text id="37_value" need_translate="false" value="Click to see your luxuries"/>
-        <text id="38_title" need_translate="true" value=""/>
-        <text id="38_value" need_translate="true" value=""/>
+        <text id="38_title" need_translate="false" value="Skills"/>
+        <text id="38_value" need_translate="false" value="Skills level. Develop your skills by getting experience points"/>
         <text id="39_text" need_translate="false" value="The activity field of the company"/>
         <text id="39_title" need_translate="false" value="Company type"/>
         <text id="3_title" need_translate="false" value="Office"/>

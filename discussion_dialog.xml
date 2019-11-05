@@ -57,11 +57,11 @@
         <text id="400" need_translate="false" value="Hmm…I didn’t want to sell my shares. But if you pay $%1 per share (Total sum of $%2, %3 shares), i'll consider your offer"/>
         <text id="401" need_translate="false" value="I’m ready to sell my shares for $%1 per share (Total sum of $%2, %3 shares)"/>
         <text id="402" need_translate="false" value="Frankly speaking, i’m not ready to sell my shares but for $%1 per share i’ll be able to meet you halfway (Total sum of $%2, %3 shares)"/>
-        <text id="500" need_translate="false" value="I’m not interested in that price…I’m all set to drop one to $%1 (Total sum of $%2, %3 shares)"/>
-        <text id="501" need_translate="false" value="No! No way!…We’ll be able to come to the agreement for $%1 per share (Total sum of $%2, %3 shares)"/>
-        <text id="502" need_translate="false" value="It’s too little! No way! My offer is $%1 per share (Total sum of $%2, %3 shares)"/>
-        <text id="503" need_translate="false" value="Stop trying my patience…That’s too little! My offer is $%1 per share (Total sum of $%2, %3 shares)"/>
-        <text id="504" need_translate="false" value="The price is too low! My offer is $%1 per share (Total sum of $%2, %3 shares) Deal?"/>
+        <text id="500" need_translate="false" value="I’m not interested in that price… I ain't wanna sell my shares!"/>
+        <text id="501" need_translate="false" value="Your offer is not profitable... Do you have any other offers?"/>
+        <text id="502" need_translate="false" value="No way! I will never sell my shares at such a price!"/>
+        <text id="503" need_translate="false" value="Stop trying my patience…That’s too little!"/>
+        <text id="504" need_translate="false" value="Your arguments are not convincing...I don't agree to sell my shares!"/>
         <text id="600" need_translate="false" value="Okay! I’m in! I’m ready to sell %1 shares of %2 company for $%3"/>
         <text id="601" need_translate="false" value="It’s nice doing business with you, sir! I’m going to accept your terms and sell %1 shares of %2 company for $%3"/>
         <text id="602" need_translate="false" value="Well, i’m going to accept your terms and sell %1 shares of %2 company for $%3"/>

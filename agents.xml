@@ -147,8 +147,8 @@
         <text id="fireman_fail_text" need_translate="false" value="Saboteur %1 couldn't avoid an encounter with %2's security. Something went wrong"/>
         <text id="fireman_risk_text" need_translate="false" value="Saboteur %1 was caught by %2's security. There was no damage, and the spy was detained by the police"/>
         <text id="fireman_success_text" need_translate="false" value="Saboteur %1 was succeeded in harming %2. The prosecutors start checking..."/>
-        <text id="journalist_fail" need_translate="false" value="The journalist was not succeeded in achieving the goal. Furthermore, it had the opposite effect on your reputation. The reputation is down by {reputation_change}"/>
-        <text id="journalist_success" need_translate="false" value="The publication failed! {nickname}'s reputation is down by {reputation_change} to {reputation}"/>
+        <text id="journalist_fail" need_translate="false" value="The journalist was not succeeded in achieving the goal. Furthermore, it had the opposite effect on your influence. The influence is down by {reputation_change}"/>
+        <text id="journalist_success" need_translate="false" value="The publication failed! {nickname}'s influence is down by {reputation_change} to {reputation}"/>
         <text id="killer_fail_text" need_translate="false" value="%1 wasn't hurt! The killer were able to hide from the police"/>
         <text id="killer_risk_text" need_translate="false" value="The killer was detained by the police. The mission failed! Probably, you should crack down to get rid of the undesirable witness before he testifies to the police....%1 wasn't hurt. %2 is detained by the police"/>
         <text id="killer_success1_text" need_translate="false" value="%1 was injured. He will spend %2 days to recover, as a result he isn't able to act. The killer has succeeded in hiding"/>
@@ -177,7 +177,7 @@
         <text id="effect" need_translate="false" value=""/>
         <text id="name" need_translate="false" value="Poly"/>
         <text id="risk" need_translate="false" value="Now developing"/>
-        <text id="short_description" need_translate="false" value="%1 is hooked. Required influence to unlock is decreased"/>
+        <text id="short_description" need_translate="false" value="%1 is hooked. Required influence points to unlock is decreased"/>
         <text id="surname" need_translate="false" value="Adler"/>
     </agents_courtesan>
     <agents_detective>
@@ -240,9 +240,9 @@
         <text id="description" need_translate="false" value="The agent nullifies a character's diplomacy skills"/>
         <text id="full_description" need_translate="false" value=""/>
         <text id="name" need_translate="false" value="Intimidation"/>
-        <text id="negative_result" need_translate="false" value=""/>
+        <text id="negative_result" need_translate="false" value="None"/>
         <text id="positive_result" need_translate="false" value="A character's diplomacy skills are nullified during negotiation"/>
-        <text id="risk_result" need_translate="false" value="Loyalty: - 100%, reputation: -5"/>
+        <text id="risk_result" need_translate="false" value="Loyalty: - 100%, influence: -5"/>
     </bandit_skill>
     <cardinal_skill>
         <text id="description" need_translate="false" value="Agent 'Cardinal' is able to increase the character's loyalty to you. It doesn't work if the character is atheist"/>
@@ -250,21 +250,21 @@
         <text id="name" need_translate="false" value="Increasing loyalty to character"/>
         <text id="negative_result" need_translate="false" value="None"/>
         <text id="positive_result" need_translate="false" value="The character's loyalty growth to you by 1-25% every quarter (The effect sums up 4 quarters)"/>
-        <text id="risk_result" need_translate="false" value="The reputation is down by 5. The character's loyalty is down by 50%"/>
+        <text id="risk_result" need_translate="false" value="The influence is down by 5. The character's loyalty is down by 50%"/>
     </cardinal_skill>
     <courtesan_skill>
-        <text id="description" need_translate="false" value="The agent reduces the number of required reputation points for negotiations by 50%. It only works with heterosexual characters"/>
+        <text id="description" need_translate="false" value="The agent reduces the number of required influence points for negotiation by 50%. It only works with heterosexual men or homosexual women"/>
         <text id="full_description" need_translate="false" value="Now developing"/>
         <text id="name" need_translate="false" value="Seduce"/>
-        <text id="negative_result" need_translate="false" value=""/>
-        <text id="positive_result" need_translate="false" value="- 50% of the number of required reputation points"/>
-        <text id="risk_result" need_translate="false" value="+ 50% to the number of required reputation points. It cannot be reused on the same character"/>
+        <text id="negative_result" need_translate="false" value="None"/>
+        <text id="positive_result" need_translate="false" value="- 50% of the number of required influence points"/>
+        <text id="risk_result" need_translate="false" value="+ 50% to the number of required influence points. It cannot be reused on the same character"/>
     </courtesan_skill>
     <detective_skill>
         <text id="description" need_translate="false" value="The detective is ready to wash one's dirty linen in public to dig up some dirt on the character"/>
         <text id="full_description" need_translate="false" value="Now developing"/>
         <text id="name" need_translate="false" value="Dirt on character"/>
-        <text id="negative_result" need_translate="false" value=""/>
+        <text id="negative_result" need_translate="true" value=""/>
         <text id="positive_result" need_translate="false" value="Got dirt"/>
         <text id="risk_result" need_translate="false" value="It's impossible to use the agent"/>
     </detective_skill>
@@ -272,24 +272,24 @@
         <text id="description" need_translate="false" value="The agent sabotages in a company by destroying its buildings"/>
         <text id="full_description" need_translate="false" value="Now developing"/>
         <text id="name" need_translate="false" value="sabotage"/>
-        <text id="negative_result" need_translate="false" value=""/>
+        <text id="negative_result" need_translate="false" value="None"/>
         <text id="positive_result" need_translate="false" value="The saboteur destroys the company's workplaces and causes an accident"/>
-        <text id="risk_result" need_translate="false" value="None"/>
+        <text id="risk_result" need_translate="false" value="The agent will be unavailable for 3 years"/>
     </fireman_skill>
     <journalist_skill>
         <text id="decrease_name" need_translate="false" value="Publish"/>
-        <text id="description" need_translate="false" value="The journalist publishes an article that may ruin the character's reputation"/>
+        <text id="description" need_translate="false" value="The journalist publishes an article that may ruin the character's influence"/>
         <text id="full_description" need_translate="false" value="Now developing"/>
         <text id="increase_name" need_translate="false" value="Publish"/>
-        <text id="negative_result" need_translate="false" value=""/>
-        <text id="positive_result" need_translate="false" value="Increase your current reputation by 5-25%"/>
-        <text id="risk_result" need_translate="false" value="The reputation is down by 50%"/>
+        <text id="negative_result" need_translate="false" value="None"/>
+        <text id="positive_result" need_translate="false" value="Increase your current influence by 5-25%"/>
+        <text id="risk_result" need_translate="false" value="The influence is down by 50%"/>
     </journalist_skill>
     <killer_skill>
         <text id="description" need_translate="false" value="The killer makes an attempt on the character's life"/>
         <text id="full_description" need_translate="false" value="Now developing"/>
         <text id="name" need_translate="false" value="Character elimination"/>
-        <text id="negative_result" need_translate="false" value=""/>
+        <text id="negative_result" need_translate="false" value="None"/>
         <text id="positive_result" need_translate="false" value="Success"/>
         <text id="risk_result" need_translate="false" value="Fail"/>
     </killer_skill>
@@ -314,7 +314,7 @@
         <text id="description" need_translate="false" value="The agent is able to give any debt back. If the character has less money than his debt, the agent will take all the money"/>
         <text id="full_description" need_translate="false" value="Now developing"/>
         <text id="name" need_translate="false" value="Debt collection"/>
-        <text id="negative_result" need_translate="false" value=""/>
+        <text id="negative_result" need_translate="false" value="None"/>
         <text id="positive_result" need_translate="false" value="You will lose the character's loyalty to you by 25%"/>
         <text id="risk_result" need_translate="false" value=""/>
     </trasher_skill>

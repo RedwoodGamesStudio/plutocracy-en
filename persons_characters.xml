@@ -9,13 +9,13 @@
         <text id="02_shares_transport_company_name" need_translate="false" value="I want to get shares of a transport company"/>
         <text id="03_shares_petroleum_refinery_description" need_translate="false" value="The character wants to get the company's shares. If you sell the shares to the character, you will be able to make money and increase his loyalty to yourself"/>
         <text id="03_shares_petroleum_refinery_name" need_translate="false" value="I want to get shares of an oil refining company"/>
-        <text id="04_control_shares_pack_of_bank_description" need_translate="false" value="Now developing"/>
+        <text id="04_control_shares_pack_of_bank_description" need_translate="false" value="The character is ready to sell his shares. So, you don't need to have influence points to make a deal"/>
         <text id="04_control_shares_pack_of_bank_name" need_translate="false" value="Sell bank's shares"/>
-        <text id="05_control_shares_pack_of_oil_production_description" need_translate="false" value="Now developing"/>
+        <text id="05_control_shares_pack_of_oil_production_description" need_translate="false" value="The character is ready to sell his shares. So, you don't need to have influence points to make a deal"/>
         <text id="05_control_shares_pack_of_oil_production_name" need_translate="false" value="Sell oil company's shares"/>
-        <text id="06_control_shares_pack_of_transport_company_description" need_translate="false" value="Now developing"/>
+        <text id="06_control_shares_pack_of_transport_company_description" need_translate="false" value="The character is ready to sell his shares. So, you don't need to have influence points to make a deal"/>
         <text id="06_control_shares_pack_of_transport_company_name" need_translate="false" value="Sell transport company's shares"/>
-        <text id="07_control_shares_pack_of_petroleum_refinery_description" need_translate="false" value="Now developing"/>
+        <text id="07_control_shares_pack_of_petroleum_refinery_description" need_translate="false" value="The character is ready to sell his shares. So, you don't need to have influence points to make a deal"/>
         <text id="07_control_shares_pack_of_petroleum_refinery_name" need_translate="false" value="Sell oil refining company's shares"/>
         <text id="08_finance_campaign_description" need_translate="false" value="Get influence points and loyalty by financing the election campaign of officials, politicians"/>
         <text id="08_finance_campaign_name" need_translate="false" value="Finance election campaign"/>
