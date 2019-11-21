@@ -2,7 +2,9 @@
 <player_achievements_description>
     <descriptions>
         <text id="artificial_manipulator" need_translate="false" value="Hire %1 assistants"/>
+        <text id="assets_rank" need_translate="false" value="TOP-%1 rating"/>
         <text id="bloody_prince" need_translate="false" value="Complete %1 characters ambitions"/>
+        <text id="cashflow_generator" need_translate="false" value="Reach regular cash flow for the quarter - $ %1"/>
         <text id="collector" need_translate="false" value="Get %1 collectibles"/>
         <text id="combinator" need_translate="false" value="Create %1 vertical intergrations"/>
         <text id="corrupting_power" need_translate="false" value="Make %1 corrupt deals"/>
@@ -10,6 +12,7 @@
         <text id="diplomat_of_devil" need_translate="false" value="Conduct %1 successful negotiations"/>
         <text id="great_raider" need_translate="false" value="Take control of %1 companies. No matter a company type"/>
         <text id="individual" need_translate="false" value="Buy %1% of a company's shares"/>
+        <text id="influence_rank" need_translate="false" value="TOP-%1 rating"/>
         <text id="local_lobbyist" need_translate="false" value="Lobby %1 local laws"/>
         <text id="local_monopolist" need_translate="false" value="Capture %1% market share in any state "/>
         <text id="master_of_secrets" need_translate="false" value="Get %1 compromising evidence"/>
@@ -17,6 +20,7 @@
         <text id="political_heavyweight" need_translate="false" value="Lobby %1 federal laws"/>
         <text id="regional_figure" need_translate="false" value="Reach %1% of influence in any state"/>
         <text id="shadow_ruler" need_translate="false" value="Your puppet is the USA ruler"/>
+        <text id="techno-boom" need_translate="false" value="Collect as many technologies as possible in any company"/>
         <text id="themis_master" need_translate="false" value="Cancel %1 judgments"/>
         <text id="us_monopolist" need_translate="false" value="Capture %1% market share of the USA"/>
         <text id="walk_in_all_doors" need_translate="false" value="Make %1 puppets among officials and politicians"/>
@@ -24,7 +28,9 @@
     </descriptions>
     <descriptions_complete>
         <text id="artificial_manipulator" need_translate="false" value="You have hired %1 assistants."/>
+        <text id="assets_rank" need_translate="false" value="You are in the TOP-%1 rating"/>
         <text id="bloody_prince" need_translate="true" value=""/>
+        <text id="cashflow_generator" need_translate="false" value="You have reached regular cash flow for the quarter - $ %1"/>
         <text id="collector" need_translate="false" value="You have got %1 collectibles."/>
         <text id="combinator" need_translate="false" value="You have created %1 vertical intergrations."/>
         <text id="corrupting_power" need_translate="false" value="You have made %1 corrupt deals."/>
@@ -32,6 +38,7 @@
         <text id="diplomat_of_devil" need_translate="false" value="You have conducted %1 successful negotiations."/>
         <text id="great_raider" need_translate="false" value="You have taken control of %1 company (ies)."/>
         <text id="individual" need_translate="false" value="You have bought %1% of the company's shares."/>
+        <text id="influence_rank" need_translate="false" value="You are in the TOP-%1 rating"/>
         <text id="local_lobbyist" need_translate="false" value="You have lobbied %1 local laws."/>
         <text id="local_monopolist" need_translate="false" value="You have captured %1% market share in the state."/>
         <text id="master_of_secrets" need_translate="false" value="You have got %1 compromising evidence."/>
@@ -39,6 +46,7 @@
         <text id="political_heavyweight" need_translate="false" value="You have lobbied %1 federal laws."/>
         <text id="regional_figure" need_translate="false" value="You have reached %1% of influence in the state."/>
         <text id="shadow_ruler" need_translate="false" value="Now you have your own the USA ruler!"/>
+        <text id="techno-boom" need_translate="false" value="You have collected %1 technologies in the company;You have collected %1 technologies in the company;You have collected %1 technologies in the company"/>
         <text id="themis_master" need_translate="false" value="You have canceled %1 judgments."/>
         <text id="us_monopolist" need_translate="false" value="You have captured %1% market share in the USA."/>
         <text id="walk_in_all_doors" need_translate="false" value="You got %1 puppets among officials and politicians"/>
@@ -46,7 +54,9 @@
     </descriptions_complete>
     <names>
         <text id="artificial_manipulator" need_translate="false" value="Skilled manipulator"/>
+        <text id="assets_rank" need_translate="false" value="Wealth top rating"/>
         <text id="bloody_prince" need_translate="false" value="Wishmaster"/>
+        <text id="cashflow_generator" need_translate="false" value="Cash flow generator"/>
         <text id="collector" need_translate="false" value="Collector"/>
         <text id="combinator" need_translate="false" value="Wheel dealer"/>
         <text id="corrupting_power" need_translate="false" value="Corrupting authority"/>
@@ -54,6 +64,7 @@
         <text id="diplomat_of_devil" need_translate="false" value="Devil diplomat"/>
         <text id="great_raider" need_translate="false" value="Great raider"/>
         <text id="individual" need_translate="false" value="Exclusive owner"/>
+        <text id="influence_rank" need_translate="false" value="Influence top rating"/>
         <text id="local_lobbyist" need_translate="false" value="Local lobbyist"/>
         <text id="local_monopolist" need_translate="false" value="Local monopolist"/>
         <text id="master_of_secrets" need_translate="false" value="Secrets master"/>
@@ -61,6 +72,7 @@
         <text id="political_heavyweight" need_translate="false" value="Political heavyweight"/>
         <text id="regional_figure" need_translate="false" value="Regional figure"/>
         <text id="shadow_ruler" need_translate="false" value="Shadow ruler"/>
+        <text id="techno-boom" need_translate="false" value="Techno-boom"/>
         <text id="themis_master" need_translate="false" value="Themis master"/>
         <text id="us_monopolist" need_translate="false" value="USA monopolist"/>
         <text id="walk_in_all_doors" need_translate="false" value="Influential person"/>
@@ -68,7 +80,9 @@
     </names>
     <progress_text>
         <text id="artificial_manipulator" need_translate="false" value="Hired assistants:"/>
+        <text id="assets_rank" need_translate="false" value="Current place:"/>
         <text id="bloody_prince" need_translate="false" value="Completed ambitions:"/>
+        <text id="cashflow_generator" need_translate="false" value="Cash flow:"/>
         <text id="collector" need_translate="false" value="Got collectibles:"/>
         <text id="combinator" need_translate="false" value="Vertical intergrations:"/>
         <text id="corrupting_power" need_translate="false" value="Corruption deals:"/>
@@ -76,6 +90,7 @@
         <text id="diplomat_of_devil" need_translate="false" value="Conducted negotiations:"/>
         <text id="great_raider" need_translate="false" value="Control of companies:"/>
         <text id="individual" need_translate="false" value="Purchased share stake:"/>
+        <text id="influence_rank" need_translate="false" value="Current place:"/>
         <text id="local_lobbyist" need_translate="false" value="Lobby local laws:"/>
         <text id="local_monopolist" need_translate="false" value="Market share in the state:"/>
         <text id="master_of_secrets" need_translate="false" value="Got compromising evidence:"/>
@@ -83,6 +98,7 @@
         <text id="political_heavyweight" need_translate="false" value="Lobby federal laws:"/>
         <text id="regional_figure" need_translate="false" value="Influence level in the state:"/>
         <text id="shadow_ruler" need_translate="false" value="Puppet ruler:"/>
+        <text id="techno-boom" need_translate="false" value="Got technologies:"/>
         <text id="themis_master" need_translate="false" value="Canceled judgments:"/>
         <text id="us_monopolist" need_translate="false" value="Market share in the USA:"/>
         <text id="walk_in_all_doors" need_translate="false" value="Puppet politicians:"/>
@@ -90,7 +106,9 @@
     </progress_text>
     <short_descriptions>
         <text id="artificial_manipulator" need_translate="false" value="%1 assistant;%1 assistants;%1 assistants"/>
+        <text id="assets_rank" need_translate="false" value="TOP-%1"/>
         <text id="bloody_prince" need_translate="false" value="%1 ambitions;%1 ambitions;%1 ambitions"/>
+        <text id="cashflow_generator" need_translate="false" value="TOP-%1"/>
         <text id="collector" need_translate="false" value="%1 item;%1 items;%1 items"/>
         <text id="combinator" need_translate="false" value="%1 holding;%1 holdings;%1 holdings"/>
         <text id="corrupting_power" need_translate="false" value="%1 deal;%1 deals;%1 deals"/>
@@ -98,6 +116,7 @@
         <text id="diplomat_of_devil" need_translate="false" value="%1 negotiations"/>
         <text id="great_raider" need_translate="false" value="%1 company;%1 companies;%1 companies"/>
         <text id="individual" need_translate="false" value="%1% shares"/>
+        <text id="influence_rank" need_translate="false" value="TOP-%1"/>
         <text id="local_lobbyist" need_translate="false" value="%1 law;%1 laws;%1 laws"/>
         <text id="local_monopolist" need_translate="false" value="%1% market share"/>
         <text id="master_of_secrets" need_translate="false" value="%1 dirts"/>
@@ -105,6 +124,7 @@
         <text id="political_heavyweight" need_translate="false" value="%1 law;%1 laws;%1 laws"/>
         <text id="regional_figure" need_translate="false" value="%1% influence points"/>
         <text id="shadow_ruler" need_translate="false" value="Now developing"/>
+        <text id="techno-boom" need_translate="false" value="%1 technologies;%1 technologies;%1 technologies;"/>
         <text id="themis_master" need_translate="false" value="%1 court decision;%1 court decisions;%1 court decisions"/>
         <text id="us_monopolist" need_translate="false" value="%1% market share"/>
         <text id="walk_in_all_doors" need_translate="false" value="%1 puppet;%1 puppets;%1 puppets"/>

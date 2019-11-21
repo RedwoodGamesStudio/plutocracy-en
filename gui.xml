@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gui>
     <achievement_window>
-        <text id="achievement" need_translate="false" value="Achievement"/>
+        <text id="achievement" need_translate="false" value="Got achievement!"/>
         <text id="achievement_is_not_continious" need_translate="false" value="Power points accumulate once"/>
         <text id="bonus" need_translate="false" value="Bonus"/>
         <text id="collector_completed_hint" need_translate="false" value="The collection is completed"/>
@@ -52,7 +52,7 @@
         <text id="agent_can_be_applied_on_persons_only" need_translate="false" value="The agent can only be used on characters!"/>
         <text id="agent_cannot_be_applied_to_player" need_translate="false" value="The agent cannot be used on the player!"/>
         <text id="agent_is_working" need_translate="false" value="The agent is on the mission...!"/>
-        <text id="agent_unavaliable" need_translate="false" value="The agent is unavailable. Increase the characters' loyalty to yourself!"/>
+        <text id="agent_unavaliable" need_translate="false" value="No contact with the agent! To get the contact, you need to realize the characters' ambitions"/>
         <text id="bandit_already_exists" need_translate="false" value="The character is scared!"/>
         <text id="cardinal_already_exists" need_translate="false" value="The character is influenced by the bishop"/>
         <text id="cardinal_for_religious" need_translate="false" value="The agent can be used on religious characters!"/>
@@ -131,6 +131,7 @@
         <text id="window_title" need_translate="false" value="Agents"/>
     </agent_research>
     <agent_result_popup>
+        <text id="after_date" need_translate="false" value="from {date}"/>
         <text id="agent_result" need_translate="false" value="Result"/>
         <text id="agree" need_translate="false" value="Ok"/>
         <text id="blackmail" need_translate="false" value="Blackmail"/>
@@ -141,24 +142,30 @@
         <text id="compromising" need_translate="false" value="Dirt"/>
         <text id="compromising_hint_disabled" need_translate="false" value="Required dirt!"/>
         <text id="compromising_hint_enabled" need_translate="false" value="The more dirt on the character, the higher the chance of successful blackmail. The current chance: %1%"/>
+        <text id="courtesan_result" need_translate="false" value="Required influence points"/>
         <text id="days" need_translate="false" value="Time"/>
+        <text id="detective_use" need_translate="false" value="Mission replay"/>
+        <text id="detective_use_impossible" need_translate="false" value="Impossible"/>
+        <text id="diplomacy" need_translate="false" value="Diplomacy"/>
         <text id="do_nothing" need_translate="false" value="Save"/>
+        <text id="effect" need_translate="false" value="Effect"/>
         <text id="effects" need_translate="false" value="Results"/>
         <text id="fail_result" need_translate="false" value="Mission &quot;%1&quot; failed"/>
+        <text id="fireman_unlock_date" need_translate="false" value="Hire agent"/>
+        <text id="fireman_use_date" need_translate="false" value="Hiring"/>
         <text id="give_to_prosecutor" need_translate="false" value="Refer to the prosecutor"/>
         <text id="goodwill" need_translate="false" value="Goodwill"/>
         <text id="influence" need_translate="false" value="Influence"/>
         <text id="loyality" need_translate="false" value="Loyalty"/>
         <text id="make_a_deal" need_translate="false" value="Fake"/>
         <text id="menu_no_journalist" need_translate="false" value="Journalist is unavailable!"/>
-        <text id="mission_cost" need_translate="false" value="Price"/>
+        <text id="mission_cost" need_translate="false" value="Agent award"/>
         <text id="ok_button" need_translate="false" value="Ok"/>
         <text id="publish" need_translate="false" value="Publish"/>
         <text id="reputation" need_translate="false" value="Influence"/>
         <text id="sickness" need_translate="false" value="Disease"/>
         <text id="success_result" need_translate="false" value="Mission &quot;%1&quot; completed"/>
         <text id="suspect_result" need_translate="false" value="Mission &quot;%1&quot; aroused suspicion"/>
-        <text id="total_damage" need_translate="false" value="Damage"/>
     </agent_result_popup>
     <agent_skill>
         <text id="apply" need_translate="false" value="Apply"/>
@@ -179,6 +186,7 @@
     <ambition_popup>
         <text id="abandon_quest" need_translate="false" value="Refuse"/>
         <text id="agree" need_translate="false" value="Agree"/>
+        <text id="authority_rating" need_translate="false" value="Rating"/>
         <text id="bribe_sum" need_translate="false" value="Estimated bribe sum"/>
         <text id="campaign_influence" need_translate="false" value="Gratitude"/>
         <text id="campaign_sum" need_translate="false" value="Campaign cost"/>
@@ -361,8 +369,18 @@
         <text id="total_sum" need_translate="false" value="Total"/>
     </broker_window>
     <cabinet_window>
+        <text id="global_map_header" need_translate="false" value="Global map"/>
         <text id="window_title" need_translate="false" value="Office"/>
     </cabinet_window>
+    <campaign_window>
+        <text id="header" need_translate="false" value="Episode selection"/>
+        <text id="item_0_header" need_translate="false" value="Episode 1\nThe Pursuit of Rockefeller"/>
+        <text id="item_1_header" need_translate="false" value="Episode 2\nIn Vanderbilt's Footsteps"/>
+        <text id="item_2_header" need_translate="false" value="Episode 3\nCarnegie Legacy"/>
+        <text id="item_3_header" need_translate="false" value="Episode 4\nFord Supremacy"/>
+        <text id="item_4_header" need_translate="false" value="Episode 5\nMorgan Financial Games"/>
+        <text id="now_developing" need_translate="false" value="Now developing"/>
+    </campaign_window>
     <cancel_event_popup>
         <text id="cancel_event" need_translate="false" value="Cancel planned event"/>
         <text id="cancel_negotiation" need_translate="false" value="The cancellation of the meeting has ruined the relationship with %1"/>
@@ -462,6 +480,47 @@
         <text id="director" need_translate="false" value="Board member"/>
         <text id="gold_parachute" need_translate="false" value="Gold parachute"/>
         <text id="influence_to_player" need_translate="false" value="Influence"/>
+        <orders>
+            <text id="item_0_0_header" need_translate="false" value="Use agent"/>
+            <text id="item_0_0_hint" need_translate="false" value="You need to have the contact with agents to manipulate a company"/>
+            <text id="item_0_0_name" need_translate="false" value="Use agent"/>
+            <text id="item_0_1_header" need_translate="false" value="Change director"/>
+            <text id="item_0_1_hint" need_translate="false" value="Select a new director. After that, the shareholders voting will begin! To win, you must have the majority of voters 'AGREE'. Your puppets and friends always vote in your favor"/>
+            <text id="item_0_1_name" need_translate="false" value="Change director"/>
+            <text id="item_0_2_header" need_translate="false" value="Development strategy"/>
+            <text id="item_0_2_hint" need_translate="false" value="Set a priority direction for company development. Required to get a controlling interest"/>
+            <text id="item_0_2_name" need_translate="false" value="Development strategy"/>
+            <text id="item_1_0_header" need_translate="false" value="Get subsidies"/>
+            <text id="item_1_0_hint" need_translate="false" value="Now developing"/>
+            <text id="item_1_0_name" need_translate="false" value="Get subsidies"/>
+            <text id="item_1_1_description" need_translate="false" value="A government contract is a great competitive advantage for affiliated companies because it allows you to sell overpriced goods throughout the year"/>
+            <text id="item_1_1_header" need_translate="false" value="Government contract"/>
+            <text id="item_1_1_hint" need_translate="false" value="Now developing"/>
+            <text id="item_1_1_name" need_translate="false" value="Government contract"/>
+            <text id="item_1_2_header" need_translate="false" value="Company expansion"/>
+            <text id="item_1_2_hint" need_translate="false" value="Change the number of workplaces"/>
+            <text id="item_1_2_name" need_translate="false" value="Company expansion"/>
+            <text id="item_2_0_description" need_translate="false" value="This is a quick way to expand the financial capabilities of your company by paying additional costs"/>
+            <text id="item_2_0_header" need_translate="false" value="Lending"/>
+            <text id="item_2_0_hint" need_translate="false" value="This is a quick way to expand the financial capabilities of your company by paying additional costs. Required to get the most shareholders approval!"/>
+            <text id="item_2_0_name" need_translate="false" value="Lending"/>
+            <text id="item_2_1_description" need_translate="false" value="You can issue additional shares to expand the financial capabilities of your company. However, it may lead to a loss of control over the company"/>
+            <text id="item_2_1_header" need_translate="false" value="Shares issue"/>
+            <text id="item_2_1_hint" need_translate="false" value="You can issue additional shares to expand the financial capabilities of your company. However, it may lead to a loss of control over the company. Required to get the most shareholders approval!"/>
+            <text id="item_2_1_name" need_translate="false" value="Shares issue"/>
+            <text id="item_2_2_header" need_translate="false" value="Merger"/>
+            <text id="item_2_2_hint" need_translate="false" value="Now developing"/>
+            <text id="item_2_2_name" need_translate="false" value="Merger"/>
+            <text id="item_3_0_header" need_translate="false" value="Trust"/>
+            <text id="item_3_0_hint" need_translate="false" value="Now developing"/>
+            <text id="item_3_0_name" need_translate="false" value="Trust"/>
+            <text id="item_3_1_header" need_translate="false" value="Cartel"/>
+            <text id="item_3_1_hint" need_translate="false" value="Now developing"/>
+            <text id="item_3_1_name" need_translate="false" value="Cartel"/>
+            <text id="item_3_2_header" need_translate="false" value="Holding"/>
+            <text id="item_3_2_hint" need_translate="false" value="Now developing"/>
+            <text id="item_3_2_name" need_translate="false" value="Holding"/>
+        </orders>
         <text id="player_not_owner" need_translate="false" value="Buy more shares to control"/>
         <text id="reputation" need_translate="false" value="Influence"/>
         <text id="salary" need_translate="false" value="Salary"/>
@@ -594,12 +653,16 @@
         <text id="year_roi" need_translate="false" value="Annual profitability"/>
     </company_info_panel>
     <company_loan>
+        <text id="btn_give" need_translate="false" value="Repay loan"/>
+        <text id="btn_take" need_translate="false" value="Take loan"/>
+        <text id="button_back" need_translate="false" value="Close"/>
         <text id="give_loan_button" need_translate="false" value="Pay"/>
         <text id="give_loan_payment" need_translate="false" value="Quarterly payout"/>
         <text id="give_loan_rate" need_translate="false" value="Loan rate"/>
         <text id="give_loan_subtitle" need_translate="false" value="Loan repayment"/>
         <text id="give_loan_sum" need_translate="false" value="Payment amount"/>
         <text id="give_loan_title" need_translate="false" value="Loan repayment"/>
+        <text id="loan_title" need_translate="false" value="Loan"/>
         <text id="take_hint_text" need_translate="false" value="It is necessary to decide on the loan amount!"/>
         <text id="take_hint_title" need_translate="false" value="Blocked"/>
         <text id="take_loan_button" need_translate="false" value="Take"/>
@@ -639,9 +702,9 @@
             <text id="title_2" need_translate="false" value="Raw materials price"/>
             <text id="title_20" need_translate="false" value="Logistics\ncosts"/>
             <text id="title_200" need_translate="false" value="Workers"/>
-            <text id="title_201" need_translate="false" value="Workplaces"/>
-            <text id="title_202" need_translate="false" value="Loans"/>
-            <text id="title_203" need_translate="false" value="Shares"/>
+            <text id="title_201" need_translate="false" value="Working hours"/>
+            <text id="title_202" need_translate="false" value="Plan"/>
+            <text id="title_203" need_translate="false" value="Social package"/>
             <text id="title_204" need_translate="false" value="Dividends size"/>
             <text id="title_21" need_translate="false" value="Dividends"/>
             <text id="title_22" need_translate="false" value="Exp"/>
@@ -663,7 +726,7 @@
             <text id="title_8" need_translate="false" value="Turnover"/>
             <text id="title_9" need_translate="false" value="Production\nvolume"/>
         </cards>
-        <text id="company_statistics_blocked" need_translate="false" value="The detailed statistics will be available after getting on the board of directors. You need to get {shares_need}% shares. Now: {shares_available}%"/>
+        <text id="company_statistics_blocked" need_translate="false" value="You need to get {shares_need}% shares. Now: {shares_available}%"/>
         <text id="company_statistics_blocked_title" need_translate="false" value="Blocked"/>
         <text id="director" need_translate="false" value="Management"/>
         <text id="director_hint_text" need_translate="false" value="Drag a director to use"/>
@@ -677,6 +740,7 @@
         <text id="progress_skill" need_translate="false" value="From player skills"/>
         <text id="progress_technology" need_translate="false" value="Technology"/>
         <text id="value" need_translate="false" value="Value"/>
+        <text id="voting_not_possible" need_translate="false" value="The next vote on '{name}' will be on {date}"/>
         <text id="you_need_a_control_package" need_translate="false" value="You need to get 50% + 1 share!"/>
     </company_statistics_10>
     <company_window>
@@ -882,6 +946,16 @@
     </dialog_panel>
     <director_orders>
         <text id="balance" need_translate="false" value="Company's balance: "/>
+        <change_workplaces_popup>
+            <text id="cancel_button" need_translate="false" value="Cancel"/>
+            <text id="changes" need_translate="false" value="Changes"/>
+            <text id="company_reserves" need_translate="false" value="Company reserves"/>
+            <text id="description" need_translate="false" value="To get a new workplace, you should invest in your company. The free financial reserves is the way to do that!"/>
+            <text id="header" need_translate="false" value="Company expansion"/>
+            <text id="ok_button" need_translate="false" value="Ok"/>
+            <text id="reserves_changes" need_translate="false" value="Changes reserves"/>
+            <text id="workplaces" need_translate="false" value="Workplaces"/>
+        </change_workplaces_popup>
         <text id="debts" need_translate="false" value="Debts: "/>
         <text id="dividends" need_translate="false" value="Dividend: "/>
         <text id="dividends_percent" need_translate="false" value="Dividend amount: "/>
@@ -1176,8 +1250,13 @@
         <text id="cancel" need_translate="false" value="Refuse"/>
         <text id="chance_bar_header" need_translate="false" value="Deal chance"/>
         <text id="chance_bar_text" need_translate="false" value="The higher the character's diplomacy skill level, the more difficult it is to make a deal. You can make a final offer at any time to complete the negotiation."/>
+        <text id="clock_1" need_translate="false" value="Initial value:"/>
+        <text id="clock_2" need_translate="false" value="{nickname}'s loyalty:"/>
+        <text id="clock_3" need_translate="false" value="Skill 'Oratory'"/>
+        <text id="clock_6" need_translate="false" value="Feature 'Fussy'"/>
         <text id="clock_header" need_translate="false" value="Negotiation time"/>
         <text id="clock_text" need_translate="false" value="After time runs out, negotiations will fail. The higher the opponent's loyalty to you, the more time you have"/>
+        <text id="clock_used" need_translate="false" value="Used"/>
         <text id="contract_condition" need_translate="false" value="Terms of the agreement:"/>
         <text id="deal_chance" need_translate="false" value="Deal chance:"/>
         <text id="deal_chance_text" need_translate="false" value="It shows the character is ready to sell his shares at market price. The higher your reputation, the more probability to make a deal"/>
@@ -1204,7 +1283,7 @@
         <text id="max_chance" need_translate="false" value="Max chance"/>
         <text id="negative_result" need_translate="false" value="Fail"/>
         <text id="negotiation_in_progress" need_translate="false" value="Now negotiating..."/>
-        <text id="neutral_result1" need_translate="false" value="Counteroffer"/>
+        <text id="neutral_result1" need_translate="false" value="No result"/>
         <text id="neutral_result2" need_translate="false" value="Counteroffer"/>
         <text id="offer" need_translate="false" value="Offer"/>
         <official>
@@ -1232,6 +1311,7 @@
         <text id="result_text_no_money" need_translate="false" value="You don't have enough money!"/>
         <text id="roi" need_translate="false" value="Profitability"/>
         <text id="round_no" need_translate="false" value="Round %1"/>
+        <text id="rounds_count" need_translate="false" value="Rounds"/>
         <text id="select_argument" need_translate="false" value="Select argument:"/>
         <text id="share_price" need_translate="false" value="Share price"/>
         <text id="shares_contract" need_translate="false" value="Share sale agreement"/>
@@ -1338,9 +1418,8 @@
     <end_game_popup>
         <text id="button_cancel" need_translate="false" value="Quit"/>
         <text id="button_ok" need_translate="false" value="Continue"/>
-        <text id="goal_complete_assets" need_translate="false" value="You have become the richest man in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
-        <text id="goal_complete_power" need_translate="false" value="You have become the most powerful person in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
-        <text id="goal_complete_reputation" need_translate="false" value="You have become the most influential person in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
+        <text id="goal_complete_assets" need_translate="false" value="{person_name} has become the richest man in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
+        <text id="goal_complete_reputation" need_translate="false" value="{person_name} has become the most influential person in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
         <text id="goal_fail_assets" need_translate="false" value="You have not succeeded in reaching the top of the richest men in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
         <text id="goal_fail_power" need_translate="false" value="You have not succeeded in reaching the top of the the most powerful persons in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
         <text id="goal_fail_reputation" need_translate="false" value="You have not succeeded in reaching the top of the most influential persons in the USA!&lt;br&gt;&lt;br&gt;Total rating: %1.&lt;br&gt;Spent days: %2"/>
@@ -1691,6 +1770,9 @@
         <text id="time_in_journey" need_translate="false" value="Travel time:"/>
     </map_popup>
     <map_units>
+        <text id="ca_desc" need_translate="false" value="California is a state in the Pacific Region of the United States. In 1804\nit was included in Alta California province, within Spanish New Spain Viceroyalty.\nThe area became a part of Mexico in 1821 following its successful war for independence\nbut was ceded to the United States in 1848 after the Mexican–American War.\nThe western portion of Alta California was then organized and admitted as the 31st\nstate on September 9, 1850."/>
+        <text id="ca_motto" need_translate="false" value=""/>
+        <text id="ca_nickname" need_translate="false" value=""/>
         <cities>
             <text id="albany" need_translate="false" value="Albany"/>
             <text id="buffalo" need_translate="false" value="Buffalo"/>
@@ -1720,6 +1802,9 @@
         <text id="tx_desc" need_translate="false" value="The term 'six flags over Texas' refers to several nations\n that have ruled over the territory. Spain was the first European country\n to claim the area of Texas. France held a short-lived colony. Mexico controlled the\nterritory until 1836 when Texas won its independence, becoming an independent\nRepublic. In 1845, Texas joined the union as the 28th state. The state's annexation set\noff a chain of events that led to the Mexican–American War in 1846. "/>
         <text id="tx_motto" need_translate="false" value="Motto - 'Friendship'"/>
         <text id="tx_nickname" need_translate="false" value="The Lone Star State"/>
+        <text id="va_desc" need_translate="false" value="Virginia's state nickname, the Old Dominion, is a reference\nto this status. Slave labor and the land acquired from displaced\nNative American tribes each played a significant role in the colony's early politics and\nplantation economy. Virginia was one of the 13 Colonies in the American Revolution.\nVirginia is called the &laquo;Mother of States&raquo; because of its role in being carved into states\nsuch as Kentucky, which became the 15th state in 1792."/>
+        <text id="va_motto" need_translate="false" value=""/>
+        <text id="va_nickname" need_translate="false" value=""/>
     </map_units>
     <math_functions>
         <text id="b" need_translate="false" value="B"/>
@@ -1749,7 +1834,10 @@
     <negotiation_cost_tooltip>
         <text id="ambition" need_translate="false" value="Ambition"/>
         <text id="courtesan" need_translate="false" value="Courtesan influence"/>
+        <text id="courtesan_risk_result" need_translate="false" value="Successful deal +50%"/>
+        <text id="courtesan_success_result" need_translate="false" value="Successful deal -50%"/>
         <text id="dummy" need_translate="false" value="Puppets"/>
+        <text id="failed_courtesan" need_translate="false" value="Fail"/>
         <text id="loyality" need_translate="false" value="Character loyalty"/>
         <text id="offer" need_translate="false" value="Wants to sell the shares"/>
         <text id="opponent_reputation" need_translate="false" value="Character influence"/>
@@ -1817,16 +1905,16 @@
         <text id="make_donation_text" need_translate="false" value="I see...what a pity! Either way, i'm delighted grateful for your donation. I appreciate it!"/>
         <text id="person_bankruptcy_caption" need_translate="false" value="{person_name} is a bankrupt!"/>
         <text id="person_bankruptcy_text" need_translate="false" value="Today, {person_status} declared bankruptcy - he will not able to pay his bills. Probably, he is going to leave the USA"/>
-        <text id="player_by_action_caption" need_translate="false" value="%1% of shares of %3 %2 company were purchased for $ %5 in %4 state"/>
-        <text id="player_by_action_text" need_translate="false" value="%1% of shares of {company} %2 company were purchased for $ %3. The deal was made with {opponent} in %4 state"/>
+        <text id="player_by_action_caption" need_translate="false" value="%1% shares of %3 %2 company were purchased for $ %5 in %4 state"/>
+        <text id="player_by_action_text" need_translate="false" value="%1% shares of {company} %2 company  were purchased by {player} for $ %3. The deal was made with {opponent} in %4 state"/>
         <text id="player_by_from_auc_caption" need_translate="false" value="%1 was purchased at the auction for $ %2"/>
         <text id="player_by_from_auc_text" need_translate="false" value="%1 was purchased at the auction in %3 state for $ %2!"/>
         <text id="player_by_from_npc_caption" need_translate="false" value="%1 was bought from %2 for $%3. There was got %4 prestige points"/>
         <text id="player_by_from_npc_text" need_translate="false" value="You succeeded in buying a %1 from %3 for $%2. The auction price is $%4"/>
         <text id="player_donation_to_fund_caption" need_translate="true" value=""/>
         <text id="player_donation_to_fund_text" need_translate="true" value=""/>
-        <text id="player_fail_by_action_caption" need_translate="false" value="%1% of shares of %3 %2 company for $ %5 in %4 state were not purchased"/>
-        <text id="player_fail_by_action_text" need_translate="false" value="%1% of %2's shares purchase in %4 state failed. The offered price of $%5 was not interesting to {opponent}"/>
+        <text id="player_fail_by_action_caption" need_translate="false" value="%1% shares of %3 %2 company for $ %5 in %4 state were not purchased"/>
+        <text id="player_fail_by_action_text" need_translate="false" value="The deal between {player} and {opponent} failed (Purchase of %1% shares of {company} %2 company)! The offered price of $%5 was not interesting to {opponent}"/>
         <text id="player_lost_trades_caption" need_translate="false" value="The auction failed. You did not manage to purchase %1 in %2 state"/>
         <text id="player_lost_trades_text" need_translate="false" value="The starting price of the %1 was $%2. The lot was bought by %3 for $%4"/>
         <text id="player_missed_auction_caption" need_translate="false" value="%2 was bought by %1 for $%3"/>
@@ -1977,6 +2065,8 @@
         <text id="assistant_director_in_genetive" need_translate="false" value="&quot;{companyname}&quot; directors"/>
         <text id="assistant_in_genetive" need_translate="false" value="Assistant"/>
         <text id="authority" need_translate="false" value="Authority"/>
+        <text id="bot" need_translate="false" value="Opponent"/>
+        <text id="bot_in_genetive" need_translate="false" value="Opponent"/>
         <text id="ceo" need_translate="false" value="CEO"/>
         <text id="compromising_hint_header" need_translate="false" value="You have got dirt on the character (power dirt is %1% of 100%)"/>
         <text id="compromising_hint_text" need_translate="false" value=""/>
@@ -2253,6 +2343,23 @@
         <text id="skills" need_translate="false" value="Skills"/>
         <text id="summary" need_translate="false" value="Summary"/>
     </persons_window>
+    <player_blackmail_popup>
+        <text id="bandit_not_avaliable" need_translate="false" value="Bandit is unavailable!"/>
+        <text id="header" need_translate="false" value="Blackmail"/>
+        <text id="negative_button" need_translate="false" value="Ignore"/>
+        <text id="negative_button_hint" need_translate="false" value="A blackmailer may publish dirt to ruin your reputation.&lt;br&gt;&lt;br&gt;Probability: {success_chance}%"/>
+        <text id="neutral_button" need_translate="false" value="Threaten"/>
+        <text id="neutral_button_hint" need_translate="false" value="Bandit will try to 'convince' a blackmailer not to publish dirt.&lt;br&gt;&lt;br&gt;Probability: {success_chance}%"/>
+        <text id="news_agent_text" need_translate="false" value="{person_name} will no longer blackmail you. The evidence has been destroyed!!"/>
+        <text id="news_agent_title" need_translate="false" value="Mission completed!"/>
+        <text id="news_evidence_published_text" need_translate="false" value="An anonymous source informed our publication of information confirming {player_name}'s involvement in some corruption schemes. This probably applies to politicians who covered him earlier."/>
+        <text id="news_evidence_published_title" need_translate="false" value="Shocking details of {player_name}'s secret life"/>
+        <text id="news_evidence_saved_text" need_translate="false" value="I decided not to publish the dirt on you until a special moment ... I'm sure you will regret not accepting my terms before"/>
+        <text id="news_evidence_saved_title" need_translate="false" value="Dirt not used"/>
+        <text id="positive_button" need_translate="false" value="Agree"/>
+        <text id="positive_button_hint" need_translate="false" value="The opponent will get the shares, the dirt will be nullified!"/>
+        <text id="text" need_translate="false" value="{person_name}: I got irrefutable evidence (Dirt power: {evidence_value}%). You must agree to my terms! I want to get {shares_count} ({shares_percent}%) shares of {company_name}. Otherwise, the media will be informed about that..."/>
+    </player_blackmail_popup>
     <player_events>
         <text id="back_to_player_window" need_translate="true" value=""/>
         <text id="cash" need_translate="false" value="Wealth"/>
@@ -2299,6 +2406,7 @@
         <text id="cash" need_translate="false" value="Cash"/>
         <text id="cash_assets" need_translate="false" value="Assets"/>
         <text id="debt_certificate" need_translate="false" value="Bonds"/>
+        <text id="deposit" need_translate="false" value="Account"/>
         <text id="financial_support" need_translate="false" value="Maintenance"/>
         <text id="lending" need_translate="false" value="Loans"/>
         <text id="loan_from" need_translate="false" value="Loan from"/>
@@ -2404,13 +2512,13 @@
         <text id="skill_14_description" need_translate="false" value="Provides the opportunity to subsidize the company loans by the state treasury. Level up to lower loan rate"/>
         <text id="skill_15" need_translate="false" value="Lobby"/>
         <text id="skill_15_description" need_translate="false" value="Submit your law through a senator or congressman. Level up to downgrade the politician"/>
-        <text id="skill_1_description" need_translate="false" value="Reduces management costs"/>
+        <text id="skill_1_description" need_translate="false" value="Reduces player maintenance costs"/>
         <text id="skill_2" need_translate="false" value="Management"/>
         <text id="skill_2_description" need_translate="false" value="CEO speeds up technology update"/>
         <text id="skill_3" need_translate="false" value="Investments"/>
-        <text id="skill_3_description" need_translate="false" value="Increases investment attractiveness"/>
-        <text id="skill_4" need_translate="false" value="Construction"/>
-        <text id="skill_4_description" need_translate="false" value="Reduces workplaces price"/>
+        <text id="skill_3_description" need_translate="false" value="Free capital accruals extra income"/>
+        <text id="skill_4" need_translate="false" value="Bookkeeping"/>
+        <text id="skill_4_description" need_translate="false" value="Tax base reduction through various offshore schemes"/>
         <text id="skill_5" need_translate="false" value="Evaluation"/>
         <text id="skill_5_description" need_translate="false" value="Reduces agents price after each use"/>
         <text id="skill_6" need_translate="false" value="Eloquence"/>
@@ -2443,13 +2551,13 @@
         <text id="convictions" need_translate="false" value="Beliefs"/>
         <text id="diplomacy_left_area_hint_header" need_translate="false" value="Diplomacy"/>
         <text id="diplomacy_left_area_hint_text" need_translate="false" value="Diplomacy skill increases the chance to make a deal, get more influence points by holding various political or company posts."/>
-        <text id="diplomacy_left_area_hint_text_2" need_translate="false" value="Deal success:"/>
+        <text id="diplomacy_left_area_hint_text_2" need_translate="false" value="Max impact on chance:"/>
         <text id="diplomacy_left_area_hint_text_3" need_translate="false" value="Chance to make a deal"/>
         <text id="director_is_player" need_translate="false" value="You cannot fire yourself!"/>
         <text id="director_not_exist" need_translate="false" value="A director is not appointed!"/>
         <text id="economics_left_area_hint_header" need_translate="false" value="Economics"/>
         <text id="economics_left_area_hint_text" need_translate="false" value="Economics skill allows you to get the best price in negotiations as well as upgrading a company management"/>
-        <text id="economics_left_area_hint_text_2" need_translate="false" value="Starting price:"/>
+        <text id="economics_left_area_hint_text_2" need_translate="false" value="Max impact on price:"/>
         <text id="economics_left_area_hint_text_3" need_translate="false" value="Price"/>
         <text id="effect" need_translate="false" value="Current effect:"/>
         <text id="government_contract" need_translate="false" value="Government contract"/>
@@ -2761,6 +2869,17 @@
         <text id="ambition" need_translate="false" value="Ambition"/>
         <text id="assets" need_translate="false" value="Wealth"/>
         <text id="characteristics" need_translate="false" value="Characteristics"/>
+        <text id="filter_all_persons" need_translate="false" value="All characters"/>
+        <text id="filter_all_states" need_translate="false" value="All states"/>
+        <text id="filter_bot" need_translate="false" value="Opponent"/>
+        <text id="filter_director" need_translate="false" value="Director"/>
+        <text id="filter_illinois" need_translate="false" value="Illinois"/>
+        <text id="filter_new_york" need_translate="false" value="New York"/>
+        <text id="filter_official" need_translate="false" value="Official"/>
+        <text id="filter_player" need_translate="false" value="Player"/>
+        <text id="filter_politician" need_translate="false" value="Politician"/>
+        <text id="filter_shareholder" need_translate="false" value="Shareholder"/>
+        <text id="filter_texas" need_translate="false" value="Texas"/>
         <text id="name" need_translate="false" value="Character"/>
         <text id="profit" need_translate="false" value="Income"/>
         <text id="reputation" need_translate="false" value="Influence"/>
@@ -2776,8 +2895,11 @@
         <text id="beliefs" need_translate="false" value="Beliefs"/>
         <text id="benevolent_or_envious_modifier" need_translate="false" value=""/>
         <text id="blackmail" need_translate="false" value="Blackmail"/>
+        <text id="bot" need_translate="false" value="Opponent"/>
         <text id="cardinal" need_translate="true" value="Cardinal"/>
         <text id="commit_crime" need_translate="false" value="Committed a crime"/>
+        <text id="common_enemy" need_translate="false" value="Feud with a mutual acquaintance"/>
+        <text id="common_friend" need_translate="false" value="Friendship with a mutual friend"/>
         <text id="communicability" need_translate="false" value="Sociability"/>
         <text id="control_shareholder_modifier" need_translate="false" value="Company owner"/>
         <text id="convictions_modifier" need_translate="false" value="Beliefs bonus"/>
@@ -2800,7 +2922,7 @@
         <text id="personal_request" need_translate="false" value="Personal request"/>
         <text id="previous_negotiations" need_translate="false" value="Previous negotiation"/>
         <text id="relation_header" need_translate="false" value="Loyalty"/>
-        <text id="reputation" need_translate="true" value="Reputation"/>
+        <text id="reputation" need_translate="false" value="Dirty rumors"/>
         <text id="take_a_loan" need_translate="false" value="Provided loan"/>
         <text id="total_relation" need_translate="false" value="Loyalty to you"/>
         <text id="unreliability" need_translate="false" value="Unreliable"/>
@@ -2838,6 +2960,7 @@
         <text id="company" need_translate="false" value="Assets"/>
         <text id="corruption" need_translate="false" value="Corruption"/>
         <text id="crime" need_translate="false" value="Crime"/>
+        <text id="dirt" need_translate="true" value=""/>
         <text id="events" need_translate="false" value="Events"/>
         <text id="finance_campaign" need_translate="false" value="Campaign financing"/>
         <text id="in_prison" need_translate="false" value="Criminal record"/>
@@ -2864,17 +2987,20 @@
         <text id="avatar_hair" need_translate="false" value="Hairstyle"/>
         <text id="avatar_type" need_translate="false" value="Type"/>
         <text id="big_world" need_translate="false" value="Large world"/>
+        <text id="bots_count" need_translate="false" value="Opponents"/>
+        <text id="cancel" need_translate="false" value="Cancel"/>
         <text id="company_owner" need_translate="false" value="Company owner"/>
         <text id="create" need_translate="false" value="Create"/>
         <text id="detail_variant" need_translate="true" value=""/>
-        <text id="dossier" need_translate="false" value="Dossier"/>
+        <text id="dossier" need_translate="false" value="Unique"/>
         <text id="endless_game" need_translate="false" value="Infinitely"/>
         <text id="euroopoid" need_translate="false" value="European"/>
         <text id="exp_investor" need_translate="false" value="Experienced investor"/>
         <text id="female" need_translate="false" value="Female"/>
+        <text id="finance_shark" need_translate="false" value="Financial shark"/>
         <text id="financial_genius" need_translate="false" value="Financial genius"/>
         <text id="from_lowest" need_translate="false" value="Start from the bottom"/>
-        <text id="game_difficult" need_translate="false" value="Select difficulty"/>
+        <text id="game_difficult" need_translate="false" value="Difficulty"/>
         <text id="game_target" need_translate="false" value="Game goal"/>
         <text id="game_world" need_translate="false" value="Game world"/>
         <text id="generate" need_translate="false" value="Generate"/>
@@ -2892,22 +3018,28 @@
         <text id="negroid" need_translate="false" value="African American"/>
         <text id="newbie" need_translate="false" value="Novice"/>
         <text id="no_attributes" need_translate="false" value="None"/>
+        <text id="no_bots" need_translate="false" value="No opponents"/>
         <text id="old" need_translate="false" value="Elderly"/>
+        <text id="one_bot" need_translate="false" value="1 opponent"/>
         <text id="person_age" need_translate="false" value="Age"/>
         <text id="person_race" need_translate="false" value="Race"/>
         <text id="person_sex" need_translate="false" value="Sex"/>
+        <text id="piranha" need_translate="false" value="Piranha"/>
         <text id="plutocrat" need_translate="false" value="Plutocract"/>
         <text id="ripe" need_translate="false" value="Mature"/>
         <text id="save" need_translate="false" value="Save"/>
         <text id="select_person" need_translate="false" value="Choose character"/>
         <text id="shark_of_capitalism" need_translate="false" value="Capitalist shark"/>
+        <text id="small_fish" need_translate="false" value="Small fish"/>
         <text id="small_world" need_translate="false" value="Small world"/>
-        <text id="start_conditions" need_translate="false" value="Game mode"/>
         <text id="start_time" need_translate="false" value="Game start time"/>
         <text id="state" need_translate="false" value="State"/>
         <text id="summary" need_translate="false" value="Wealth"/>
+        <text id="three_bots" need_translate="false" value="3 opponents"/>
         <text id="tie_variant" need_translate="false" value="Tie %1"/>
         <text id="top" need_translate="false" value="Top"/>
+        <text id="two_bots" need_translate="false" value="2 opponents"/>
+        <text id="unique_avatar" need_translate="false" value="Type"/>
         <text id="usa" need_translate="false" value="USA"/>
         <text id="vestment_variant" need_translate="false" value="Clothes %1"/>
         <text id="win_conidition" need_translate="false" value="Win condition"/>
@@ -2915,6 +3047,10 @@
         <text id="world_size" need_translate="false" value="World size"/>
         <text id="young" need_translate="false" value="Young"/>
     </sb_settings>
+    <screensaver>
+        <text id="citation" need_translate="false" value="«This is a government of the people, by the people, and for the people no longer. It is a government of corporations, by corporations, and for corporations.»\n'n— Rutherford B. Hayes\n19th US President (1877-1881)"/>
+        <text id="presents" need_translate="false" value="PRESENTS"/>
+    </screensaver>
     <select_director_window>
         <text id="ambition" need_translate="false" value="Ambition"/>
         <text id="characteristics" need_translate="false" value="Features"/>
@@ -2934,14 +3070,14 @@
         <text id="ability_to_move_in_any_state_while_have_action_point" need_translate="false" value="The player can move freely to any state"/>
         <text id="apply_changes" need_translate="false" value="Accept"/>
         <text id="cancel_changes" need_translate="false" value="Cancel"/>
-        <text id="ch" need_translate="false" value="Chinese"/>
-        <text id="de" need_translate="false" value="German"/>
+        <text id="ch" need_translate="false" value="中文"/>
+        <text id="de" need_translate="false" value="Deutsch"/>
         <text id="default_save_slot_name" need_translate="false" value="Save %1"/>
         <text id="difficult" need_translate="false" value="Difficulty: medium"/>
         <text id="effects_volume" need_translate="false" value="Effects volume"/>
         <text id="en" need_translate="false" value="English"/>
         <text id="enter_save_slot_name" need_translate="false" value="Save name"/>
-        <text id="es" need_translate="false" value="Spanish"/>
+        <text id="es" need_translate="false" value="Español"/>
         <text id="free_game_mode" need_translate="false" value="Free movement"/>
         <text id="game_sounds" need_translate="false" value="Game sounds"/>
         <text id="game_will_be_resrart_for_reconfigure" need_translate="false" value="Need to restart the game for the changes to apply!"/>
@@ -2959,6 +3095,19 @@
         <text id="softly" need_translate="false" value="Quiet"/>
         <text id="sound_config" need_translate="false" value="Sound settings"/>
     </settings_window>
+    <shares_buy_popup>
+        <text id="agree_button" need_translate="false" value="Agree"/>
+        <text id="agree_button_hint" need_translate="false" value="Loyalty: %1&lt;br&gt;Income per quarter: $ %2"/>
+        <text id="cancel_button" need_translate="false" value="Refuse"/>
+        <text id="cancel_button_hint" need_translate="false" value="Loyalty: %1"/>
+        <text id="deal_sum" need_translate="false" value="Sum deal"/>
+        <text id="header" need_translate="false" value="Shares sale"/>
+        <text id="info" need_translate="false" value="Information"/>
+        <text id="offer_sum" need_translate="false" value="Offered price"/>
+        <text id="shares_market_price" need_translate="false" value="Share market price"/>
+        <text id="shares_part" need_translate="false" value="Desired shares stake"/>
+        <text id="text" need_translate="false" value="{person_status} {person_name} from {state_name} wants to buy {company_name}'s shares"/>
+    </shares_buy_popup>
     <shares_emission_popup>
         <text id="bought" need_translate="false" value="Bought"/>
         <text id="bought_by_new_shareholders" need_translate="false" value="Bought by new shareholders"/>
@@ -3096,7 +3245,7 @@
         <text id="inherent" need_translate="false" value="Inborn:"/>
         <text id="interest_summary_total" need_translate="false" value="Grand total:"/>
         <text id="intrinsic_prestige" need_translate="false" value="Inborn prestige"/>
-        <text id="lending_and_obligations" need_translate="false" value="Loans:"/>
+        <text id="lending_and_obligations" need_translate="false" value="Loans and deposits:"/>
         <text id="loyality_update" need_translate="false" value="Loyalty up:"/>
         <text id="max_influence_description" need_translate="false" value="The limit of available influence"/>
         <text id="obligations_and_deposits" need_translate="false" value="Bonds and deposits:"/>
@@ -3451,16 +3600,65 @@
         <text id="ok_button" need_translate="false" value="Ok"/>
         <text id="title" need_translate="false" value="Technologies"/>
     </technologies_popup>
+    <tutorial>
+        <achievements>
+            <text id="page_1_text" need_translate="false" value="By performing various actions, you will get achievements that give you knowledge points. They can be converted into learning new skills. At the start, you will get only 2 knowledge points."/>
+        </achievements>
+        <agents>
+            <text id="page_1_text" need_translate="false" value="Influence agents will help solve some problems….not always legally. To use them or not is up to everyone. To be able to use the agent, you need to get his contact from the character whom you helped realize his ambition. You can use him only 1 time."/>
+            <text id="page_2_text" need_translate="false" value="Each agent has its own skill. To find out more, click an agent’s avatar."/>
+            <text id="page_3_text" need_translate="false" value="To use an agent, select a character / company  and click the right mouse button. In the menu, select ‘Use agent”. Keep in mind that the agent will take time to complete the mission. The price of the agent will be higher after using."/>
+        </agents>
+        <text id="close" need_translate="false" value="Close"/>
+        <company>
+            <text id="page_1_text" need_translate="false" value="To view a detailed financial statement of a company or influence the company’s management, you need to get more than 1%  of the shares. The fastest way is to buy profitable companies’ shares."/>
+            <text id="page_2_text" need_translate="false" value="To become a shareholder and get dividends, select the shareholder from whom you want to buy shares. You should consider his diplomacy and economics level because it has an effect on the chance to make a profitable deal."/>
+            <text id="page_3_text" need_translate="false" value="A shareholder’s loyalty plays a key role in negotiations. The more a character is loyal to you, the easiest it is to make a deal. Try to select the most loyal characters. To make a deal, select a shareholder clicking the right mouse button and then click ‘Deal’."/>
+            <text id="page_4_text" need_translate="false" value="You must have more influence points than the selected character or an equal number ones in order to start negotiating. Good loyalty decreases the required influence points and vice versa. Influence is an essential strategic resource. By buying companies, you will get more influence points (the amount of influence depends on the number of shares and workers in a company, the number of puppets and sponsored politicians)"/>
+        </company>
+        <company_management>
+            <text id="page_1_text" need_translate="false" value="Here you can influence the director’s decision by developing the company the way you want. The real monopolist does not manage a company  - he looks for capable managers.\nA director is the key to company development."/>
+            <text id="page_2_text" need_translate="false" value="If you want to change a director, click the button on the character’s avatar. The power of your vote is equal to your stake of shares! Furthermore, directors’ decision depend on their loyalty to you."/>
+        </company_management>
+        <company_statistics>
+            <text id="page_1_text" need_translate="false" value="To see the detailed information, click any card. Here you will see the things affecting the company income and expenses. Remember, you don't need to engage in micromanagement - you have a director for that! Your goal is to get the most profitable companies creating a monopoly."/>
+            <text id="page_2_text" need_translate="false" value="By having a controlling interest, you can manage a company director by directing his focus of attention to any of the 12 directions. The higher the director’s diplomacy skill, the more directions he has. The higher the director’s economics skill, the better he runs the company."/>
+            <text id="page_3_text" need_translate="false" value="Learn your skills or get new technologies, to improve the management. To get a technology, you need to organize a merger of your companies."/>
+        </company_statistics>
+        <compromising_evidence>
+            <text id="page_1_text" need_translate="false" value="The process of getting dirt consists of several stages:&lt;br&gt;1. Collecting dirt using a private detective.&lt;br&gt;2. Blackmail or publication of dirt in the media through a journalist.&lt;br&gt;3. The result - a puppet character or downgrade political rating &lt;br&gt;"/>
+            <text id="page_2_text" need_translate="false" value="Success depends on the power of dirt. Gather more evidence to get the wanted result."/>
+        </compromising_evidence>
+        <text id="hide_tutorials" need_translate="false" value="Don't show tutorials"/>
+        <text id="hint" need_translate="false" value="Hint"/>
+        <map>
+            <text id="page_1_text" need_translate="false" value="You can make deals in the state where you are. Use the player’s chip to move to another state - choose the chip, click a state. You cannot cancel your trip after you confirm the movement"/>
+        </map>
+        <text id="next" need_translate="false" value="Next"/>
+        <officials>
+            <text id="page_1_text" need_translate="false" value="Officials play a key role in achieving victory. They will help get access to corruption. Also, you will be able to bring ‘your people’ to political posts."/>
+            <text id="page_2_text" need_translate="false" value="Every character has ambitions. If you help realize their ambitions, they will be more loyal to you. Get a loyalty level of 100 to become a friend of a politician. As a result, you will get access to corruption schemes or a government contract."/>
+            <text id="page_3_text" need_translate="false" value="Get dirt on politicians to make them your puppets - you need influence agents to do it. But it may lead to negative consequences…"/>
+            <text id="page_4_text" need_translate="false" value="Watch the politician’s rating - if it is down by less than 50%, the official will not be re-elected"/>
+        </officials>
+        <personal_office>
+            <text id="page_1_text" need_translate="false" value="Every businessman has an office. There you can improve your skills, view financial report and your connects."/>
+            <text id="page_2_text" need_translate="false" value="The game goal is to become the richest and most influential person in the USA. You can do that  by various methods. For instance, by purchasing luxurious items at auction and selling them overpriced to interested characters, you can increase the loyalty to yourself. But the easiest way is  to buy profitable companies’ shares."/>
+        </personal_office>
+        <text id="previous" need_translate="false" value="Previous"/>
+        <rating>
+            <text id="page_1_text" need_translate="false" value="Here you can find any character. Use filters and sorting to find out who is ahead of you in the pursuit of the title of the richest and most influential character. All characters who are neutral towards you have a beige color. Characters hostile to you have a red one. Friendly  - a green one. Opponents also have their own unique color."/>
+        </rating>
+        <skills>
+            <text id="page_1_text" need_translate="false" value="By improving your skills from the top shelf, you can better impact on the price in negotiations, the middle one - the opportunity to make a deal, and the lower one will reduce the risks affiliated with corruption schemes."/>
+            <text id="page_2_text" need_translate="false" value="To learn the skill, click on the selected book if you have a free knowledge point. Each skill can be boosted to level 3."/>
+        </skills>
+    </tutorial>
     <under_construction>
         <text id="build_number" need_translate="false" value=", build %1"/>
-        <text id="hello_i_am_test_version_of_game" need_translate="false" value="Greetings!\n\nI'm a trial version of the game "/>
-        <text id="less_one_years_old" need_translate="false" value="I can be naughty and unpredictable now and then ...I'm sorry about that!:(\n"/>
-        <text id="lets_start" need_translate="false" value="\nLet's get started!"/>
-        <text id="my_creators_says" need_translate="false" value="My developers say when i get more mature, they will release me."/>
-        <text id="plutocracy" need_translate="false" value="Plutocracy"/>
+        <text id="hello_i_am_test_version_of_game" need_translate="false" value="We thank you for supporting Plutocracy!\n\nThis is the early access so you can find crashes, bugs, bad game balance, etc. Furthermore, the game doesn't have a lot of game stuff that we are going to add later. Please, leave your feedback to make the game better.\n\nWe believe we can make a great game together!"/>
         <text id="press_any_key_to_continue" need_translate="false" value="Press any key to continue . . ."/>
         <text id="truly_yours_alpha_version" need_translate="false" value="Best regards, Alpha version "/>
-        <text id="you_can_help_me" need_translate="false" value="You are one of those who can help me get more playable! If you find some bugs, feel free to give my developers a shout! I'll be grateful for that:)"/>
     </under_construction>
     <update_loyality_popup>
         <text id="button_argee" need_translate="false" value="Improve"/>
@@ -3481,6 +3679,23 @@
         <text id="profit_per_step" need_translate="false" value="Income forecast"/>
         <text id="profit_per_step_desc" need_translate="false" value=""/>
     </user_statistic>
+    <voting_event_popup>
+        <text id="dividends_header" need_translate="false" value="Change dividends size"/>
+        <text id="dividends_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested changing dividends size from {dividends_before}% to {dividends_after}%. Your income will change by $ {profit_change}"/>
+        <text id="hire_director_header" need_translate="false" value="Appoint new director"/>
+        <text id="hire_director_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested taking new director {new_director_name} instead of {old_director_name}. {shareholder_name} believes the new director will be better able to cope with the company's management than previous one"/>
+        <text id="loans_header" need_translate="false" value="Attract loan capital"/>
+        <text id="loans_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested getting a business loan of $ {loan_sum} at a rate of {loan_rate}% to increase reserves. He thinks the financial crisis is coming...so the company needs free money. The net income will decreases by $ {profit_change}"/>
+        <text id="negative_button_header" need_translate="false" value="Against"/>
+        <text id="neutral_button_header" need_translate="false" value="Abstain"/>
+        <text id="positive_button_header" need_translate="false" value="Agree"/>
+        <text id="workers_decrease_header" need_translate="false" value="Reduce the number of workers"/>
+        <text id="workers_decrease_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested reducing the number of workers from {workers_before} to {workers_after} to avoid overproduction. The net income will decrease by $ {profit_change}"/>
+        <text id="workers_increase_header" need_translate="false" value="Increase the number of workers"/>
+        <text id="workers_increase_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, is sure you should hire {new_workers} new workers to increase the net income by $ {profit_change}"/>
+        <text id="workplaces_header" need_translate="false" value="Expand company"/>
+        <text id="workplaces_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company is sure it is time to expand! He suggested investing the company's free capital in {new_workplaces} new workplaces, up to {total_workplaces}"/>
+    </voting_event_popup>
     <voting_popup>
         <text id="abstained" need_translate="false" value="Abstained"/>
         <text id="agreed" need_translate="false" value="Agree"/>

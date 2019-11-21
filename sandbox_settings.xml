@@ -15,20 +15,22 @@
         <text id="power_victory" need_translate="false" value="It is the quintessence of wealth and influence. Only the best of the best can become the most powerful persons among other"/>
     </win_settings_header>
     <world_settings>
+        <bots_count>
+            <text id="no_bots" need_translate="false" value="When no one should interfere with your goals"/>
+            <text id="one_bot" need_translate="false" value="If you need to fight with someone"/>
+            <text id="three_bots" need_translate="false" value="It is a serious challenge!"/>
+            <text id="two_bots" need_translate="false" value="If you want to prove your superiority to several opponents"/>
+        </bots_count>
         <game_difficult>
-            <text id="financial_genius" need_translate="false" value="Hardcore economy with dynamic financial indicators. Quarterly ups and downs of the market as well as constantly changing prices. That's a pretty tough competition world!"/>
-            <text id="newbie" need_translate="false" value="You only start learning the finance basics. Your competitors are friendly and compliant."/>
-            <text id="plutocrat" need_translate="false" value="In order to achieve power and greatness, you need to make superhuman efforts! Are you ready to feel the consequences of decisions affecting human destiny?"/>
-            <text id="shark_of_capitalism" need_translate="false" value="You know how to make a business! In order to win your opponents, you should be able to find the most cunning ways to achieve the goal. Be ready to rack your brain!"/>
+            <text id="finance_shark" need_translate="false" value="The opponent is armed to the teeth! You will be experiencing incredible difficulties to achieve goals. Recommended for experienced players"/>
+            <text id="piranha" need_translate="false" value="Choose it if you are ready to challenge more powerful opponents! AI has middle skills and features"/>
+            <text id="small_fish" need_translate="false" value="Recommended for beginner. The opponent has the same initial capital as yours"/>
         </game_difficult>
         <start_condition>
             <text id="company_owner" need_translate="false" value="You have a 100% the company's stake and a small staff component of 10 people. Cash in hand $1,000,000"/>
             <text id="experienced_investor" need_translate="false" value="You have a the company's stake of $1,000,000. Cash in hand $100,000"/>
             <text id="low_start" need_translate="false" value="You have a savings account in the amount of $100,000. How to start? It's up to you! "/>
         </start_condition>
-        <start_time>
-            <text id="gilded_epoch" need_translate="false" value="America after the Civil War and the Abolition of Slavery, the rise of monopolies and the formation of the largest private equity!. There are oil, banking, logistics and other industries. You have unlimited opportunities! "/>
-        </start_time>
         <world_size>
             <text id="big" need_translate="false" value="A large number of companies and characters. The average playtime is 3-5 hours."/>
             <text id="large" need_translate="false" value="A few tens of thousands of characters and a huge number of companies. The average playtime is more than 10 hours."/>

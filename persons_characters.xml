@@ -140,74 +140,42 @@
         <text id="trasher" need_translate="false" value="Bodyguard"/>
         <text id="treasurer" need_translate="false" value="Treasurer"/>
     </coins_names>
-    <description_player>
-        <text id="aggressive" need_translate="false" value="The character's loyalty to you will decrease 2 times more in case of the failed negotiation"/>
-        <text id="alcoholic" need_translate="false" value="There is a 20% chance that the character will not come to the negotiation"/>
-        <text id="arrogant" need_translate="false" value="'Arrogant' has no effect"/>
-        <text id="brawler" need_translate="false" value="+20% to the success of Journalist"/>
-        <text id="careful" need_translate="false" value="-20% to the success of Hitman"/>
-        <text id="careless" need_translate="false" value="+20% to the success of Hitman"/>
-        <text id="compliant" need_translate="false" value="The character will drop the price 2 times lower than usual in case of a counteroffer"/>
-        <text id="dark_past" need_translate="false" value="+20% to the success of Detective"/>
-        <text id="dependent" need_translate="false" value="By negotiating you need to spend 2 times more influence points to make a deal"/>
-        <text id="explosive" need_translate="false" value="You will have fewer attempts to make a deal"/>
-        <text id="fearless" need_translate="false" value="-20% to the success of Goon"/>
-        <text id="fool" need_translate="false" value="'Despot' has no effect'"/>
-        <text id="friendly" need_translate="false" value="The character's loyalty to you will decrease 2 times less in case of the failed negotiation"/>
-        <text id="frigid" need_translate="false" value="-20% to the success of Сourtesan"/>
-        <text id="heavy" need_translate="false" value="It will take 3 times longer to recover from the negotiation"/>
-        <text id="holyman" need_translate="false" value="-20% to the success of Detective"/>
-        <text id="illegible" need_translate="false" value="The failed/canceled negotiation: the reputation penalty is 2 times more"/>
-        <text id="independent" need_translate="false" value="By negotiating you need to spend 2 times less influence points to make a deal"/>
-        <text id="light" need_translate="false" value="It will take 3 times less time to recover from the negotiation"/>
-        <text id="lustful" need_translate="false" value="+20% to the success of Сourtesan"/>
-        <text id="mercantile" need_translate="false" value="The negotiation will be 2 times cheaper"/>
-        <text id="restrained" need_translate="false" value="-20% to the success of Journalist"/>
-        <text id="selective" need_translate="false" value="The canceled negotiation: the reputation penalty is 2 times less; the successful negotiation: the reputation bonus is 2 times more"/>
-        <text id="shy" need_translate="false" value="+20% to the success of Goon"/>
-        <text id="spender" need_translate="false" value="+20% to the success of Gangster"/>
-        <text id="thrifty" need_translate="false" value="-20% to the success of Gangster"/>
-        <text id="trader" need_translate="false" value="The character will drop the price 2 times more than usual in case of a counteroffer"/>
-        <text id="wasteful" need_translate="false" value="The negotiation will be 2 times more expensive"/>
-    </description_player>
     <descriptions>
-        <text id="aggressive" need_translate="false" value="The character's loyalty to you will decrease 2 times more in case of the failed negotiation"/>
+        <text id="aggressive" need_translate="false" value="The character's loyalty to you will decrease 3 times stronger in case of the failed negotiation"/>
         <text id="alco_tobacco" need_translate="false" value="Alcohol/tobacco"/>
         <text id="alcoholic" need_translate="false" value="There is a 20% chance that the character will not come to the negotiation"/>
         <text id="antiques" need_translate="false" value="Antiques"/>
-        <text id="arrogant" need_translate="false" value="Only the player can make a deal"/>
+        <text id="atheist" need_translate="false" value="You cannot use agent 'Bishop'"/>
+        <text id="believer" need_translate="false" value="You can use agent 'Bishop'"/>
         <text id="brawler" need_translate="false" value="+20% to the success of Journalist"/>
         <text id="careful" need_translate="false" value="-20% to the success of Hitman"/>
         <text id="careless" need_translate="false" value="+20% to the success of Hitman"/>
         <text id="cars" need_translate="false" value="Cars"/>
         <text id="coins" need_translate="false" value="Coins"/>
-        <text id="compliant" need_translate="false" value="The character will drop the price 2 times more than usual in case of a counteroffer"/>
+        <text id="crazy" need_translate="false" value="Starting chance and price in negotiations is always random"/>
         <text id="dark_past" need_translate="false" value="+20% to the success of Detective"/>
-        <text id="dependent" need_translate="false" value="By negotiating you need to spend 2 times less influence points to make a deal"/>
-        <text id="explosive" need_translate="false" value="You will have fewer attempts to make a deal"/>
+        <text id="dependent" need_translate="false" value="You will be able to make a deal much easier by decreasing 2 times a character's diplomacy level"/>
         <text id="fearless" need_translate="false" value="-20% to the success of Goon"/>
-        <text id="fool" need_translate="false" value="You need to spend 3 times more influence points to start the negotiation"/>
-        <text id="friendly" need_translate="false" value="The character's loyalty to you will decrease 2 times less in case of the failed negotiation"/>
+        <text id="friendly" need_translate="false" value="The character's loyalty will not decrease in case of the failed negotiation"/>
         <text id="frigid" need_translate="false" value="-20% to the success of Сourtesan"/>
-        <text id="heavy" need_translate="false" value="It will take 3 times longer to recover from the negotiation"/>
+        <text id="fussy" need_translate="false" value="You will only get 1 round to make a deal regardless of a character's loyalty and your skills"/>
+        <text id="heavy" need_translate="false" value="A character will be unavailable for 100 days after negotiating"/>
         <text id="holyman" need_translate="false" value="-20% to the success of Detective"/>
+        <text id="honest" need_translate="false" value="It is unable to corrupt if a character occupies some political office or he is not your puppet"/>
         <text id="horses" need_translate="false" value="Horses"/>
         <text id="houses" need_translate="false" value="Houses"/>
-        <text id="illegible" need_translate="false" value="The canceled negotiation: the reputation penalty is 2 times less; the successful negotiation: the reputation bonus is 2 times more"/>
-        <text id="independent" need_translate="false" value="By negotiating you need to spend 2 times more influence points to make a deal"/>
-        <text id="light" need_translate="false" value="It will take 3 times less time to recover from the negotiation"/>
+        <text id="independent" need_translate="false" value="A character's diplomacy level will be having an effect 2 times stronger on a deal result. Making a deal is harder"/>
         <text id="lustful" need_translate="false" value="+20% to the success of Сourtesan"/>
-        <text id="mercantile" need_translate="false" value="The negotiation will be 2 times more expensive"/>
+        <text id="mercantile" need_translate="false" value="The ability in negotiations to have an effect on a deal price 2 times stronger"/>
         <text id="pictures" need_translate="false" value="Pictures"/>
+        <text id="proud" need_translate="false" value="A character will not be your puppet even if you have dirt on his"/>
         <text id="restrained" need_translate="false" value="-20% to the success of Journalist"/>
-        <text id="selective" need_translate="false" value="The failed/canceled negotiation: the reputation penalty is 2 times more"/>
         <text id="shy" need_translate="false" value="+20% to the success of Goon"/>
         <text id="spender" need_translate="false" value="+20% to the success of Gangster"/>
         <text id="thrifty" need_translate="false" value="-20% to the success of Gangster"/>
-        <text id="trader" need_translate="false" value="The character will drop the price 2 times lower than usual in case of a counteroffer"/>
         <text id="trophies" need_translate="false" value="Trophies"/>
         <text id="unknown" need_translate="false" value="It's unknown. You need to learn the character"/>
-        <text id="wasteful" need_translate="false" value="The negotiation will be 2 times cheaper"/>
+        <text id="wasteful" need_translate="false" value="The ability in negotiations to have an effect on a deal price 2 times less"/>
         <text id="weapons" need_translate="false" value="Weapons"/>
         <text id="yachts" need_translate="false" value="Yachts"/>
     </descriptions>
@@ -216,36 +184,34 @@
         <text id="alco_tobacco" need_translate="false" value="Alcohol/tobacco"/>
         <text id="alcoholic" need_translate="false" value="Alcoholic"/>
         <text id="antiques" need_translate="false" value="Antiques"/>
-        <text id="arrogant" need_translate="false" value="Arrogant"/>
+        <text id="atheist" need_translate="false" value="Atheist"/>
+        <text id="believer" need_translate="false" value="Believer"/>
         <text id="brawler" need_translate="false" value="Exuberant"/>
         <text id="careful" need_translate="false" value="Careful"/>
         <text id="careless" need_translate="false" value="Careless"/>
         <text id="cars" need_translate="false" value="Cars"/>
         <text id="coins" need_translate="false" value="Coins"/>
-        <text id="compliant" need_translate="false" value="Compliant"/>
+        <text id="crazy" need_translate="false" value="Alarmist"/>
         <text id="dark_past" need_translate="false" value="Dark past"/>
-        <text id="dependent" need_translate="false" value="Spineless"/>
-        <text id="explosive" need_translate="false" value="Explosive"/>
+        <text id="dependent" need_translate="false" value="Compliant"/>
         <text id="fearless" need_translate="false" value="Fearless"/>
-        <text id="fool" need_translate="false" value="Despot"/>
-        <text id="friendly" need_translate="false" value="Friendly"/>
+        <text id="friendly" need_translate="false" value="Calm"/>
         <text id="frigid" need_translate="false" value="Frigid"/>
+        <text id="fussy" need_translate="false" value="Fussy"/>
         <text id="heavy" need_translate="false" value="Strong"/>
         <text id="holyman" need_translate="false" value="Holy"/>
+        <text id="honest" need_translate="false" value="Honest"/>
         <text id="horses" need_translate="false" value="Horses"/>
         <text id="houses" need_translate="false" value="Houses"/>
-        <text id="illegible" need_translate="false" value="Frivolous"/>
         <text id="independent" need_translate="false" value="Charismatic"/>
-        <text id="light" need_translate="false" value="Weak"/>
         <text id="lustful" need_translate="false" value="Lewd"/>
         <text id="mercantile" need_translate="false" value="Mercenary"/>
         <text id="pictures" need_translate="false" value="Pictures"/>
+        <text id="proud" need_translate="false" value="Proud"/>
         <text id="restrained" need_translate="false" value="Calm"/>
-        <text id="selective" need_translate="false" value="Selective"/>
         <text id="shy" need_translate="false" value="Skittish"/>
         <text id="spender" need_translate="false" value="Spender"/>
         <text id="thrifty" need_translate="false" value="Thrifty"/>
-        <text id="trader" need_translate="false" value="Trader"/>
         <text id="trophies" need_translate="false" value="Trophies"/>
         <text id="wasteful" need_translate="false" value="Wasteful"/>
         <text id="weapons" need_translate="false" value="Weapons"/>

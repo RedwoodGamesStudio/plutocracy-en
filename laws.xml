@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <laws>
     <law_10>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="The prosecutor may be dismissed if accused of corruption"/>
+        <text id="description_negative" need_translate="false" value=""/>
+        <text id="name" need_translate="false" value="Impeachment to the Prosecutor"/>
+        <text id="negative" need_translate="false" value=""/>
+        <text id="positive" need_translate="false" value="Impeach"/>
     </law_10>
     <law_1>
         <text id="description" need_translate="false" value="Raising corporate income taxes will lead to lower companies' net income making them less competitive in the long run. But that's certainly one way to increase the budget"/>
@@ -15,74 +15,74 @@
         <text id="positive" need_translate="false" value="Corporate income tax increase by %1"/>
     </law_1>
     <law_11>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="The police chief may be dismissed if accused of corruption"/>
+        <text id="description_negative" need_translate="false" value=""/>
+        <text id="name" need_translate="false" value="Impeachment to the Police chief"/>
+        <text id="negative" need_translate="false" value=""/>
+        <text id="positive" need_translate="false" value="Impeach"/>
     </law_11>
     <law_12>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="It is beneficial for the supporting party"/>
+        <text id="description_negative" need_translate="false" value=""/>
+        <text id="name" need_translate="false" value="Governor Office Term"/>
+        <text id="negative" need_translate="false" value="Decrease by 1 year"/>
+        <text id="positive" need_translate="false" value="Increase by 1 year"/>
     </law_12>
     <law_13>
-        <text id="description" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="Now developing"/>
         <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="name" need_translate="false" value="State Judge Election"/>
+        <text id="negative" need_translate="false" value="Appointment"/>
+        <text id="positive" need_translate="false" value="Direct elections"/>
     </law_13>
     <law_14>
-        <text id="description" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="Now developing"/>
         <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="false" value="State prosecutor"/>
-        <text id="negative" need_translate="false" value="The prosecutor will be appointed by the governor"/>
-        <text id="positive" need_translate="false" value="The prosecutor will be elected by the people"/>
+        <text id="name" need_translate="false" value="State Prosecutor Election"/>
+        <text id="negative" need_translate="false" value="Appointment"/>
+        <text id="positive" need_translate="false" value="Direct elections"/>
     </law_14>
     <law_15>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="Now developing"/>
+        <text id="description_negative" need_translate="false" value=""/>
+        <text id="name" need_translate="false" value="State Treasurer Election"/>
+        <text id="negative" need_translate="false" value="Appointment"/>
+        <text id="positive" need_translate="false" value="Direct elections"/>
     </law_15>
     <law_16>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="Now developing"/>
+        <text id="description_negative" need_translate="false" value=""/>
+        <text id="name" need_translate="false" value="Police Chief Election"/>
+        <text id="negative" need_translate="false" value="Appointment"/>
+        <text id="positive" need_translate="false" value="Direct elections"/>
     </law_16>
     <law_17>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="Get more votes in parliament to override governor's veto"/>
+        <text id="description_negative" need_translate="false" value="Now developing"/>
+        <text id="name" need_translate="false" value="Veto Override Procedure"/>
+        <text id="negative" need_translate="false" value="Decrease the number of votes to 2/3"/>
+        <text id="positive" need_translate="false" value="Increase the number of votes to 3/4"/>
     </law_17>
     <law_18>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="It is beneficial for the supporting party"/>
+        <text id="description_negative" need_translate="false" value="Now developing"/>
+        <text id="name" need_translate="false" value="Congressmen Office Term"/>
+        <text id="negative" need_translate="false" value="Decrease by 2 years"/>
+        <text id="positive" need_translate="false" value="Increase by 2 years"/>
     </law_18>
     <law_19>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="It is beneficial for the supporting party"/>
+        <text id="description_negative" need_translate="false" value="Now developing"/>
+        <text id="name" need_translate="false" value="Senator Office Term"/>
+        <text id="negative" need_translate="false" value="Decrease by 2 years"/>
+        <text id="positive" need_translate="false" value="Increase by 2 years"/>
     </law_19>
     <law_20>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="It’s hard for men to admit that women can conduct state affairs along with them"/>
+        <text id="description_negative" need_translate="false" value="Now developing"/>
+        <text id="name" need_translate="false" value="Women's Parliamentary Elections"/>
+        <text id="negative" need_translate="false" value="Reject"/>
+        <text id="positive" need_translate="false" value="Approve"/>
     </law_20>
     <law_2>
         <text id="description" need_translate="false" value="Raising individual income tax will give the legislators the opportunity to increase the state budget. However, that may well provoke mass riots, protests among dissatisfied."/>
@@ -92,11 +92,11 @@
         <text id="positive" need_translate="false" value="Individual income tax increase by %1"/>
     </law_2>
     <law_21>
-        <text id="description" need_translate="true" value=""/>
-        <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="The racial segregation in the USA may lead to riots if the law allows African Americans to be elected to the parliament"/>
+        <text id="description_negative" need_translate="false" value="Reject"/>
+        <text id="name" need_translate="false" value="African American Parliamentary Elections"/>
+        <text id="negative" need_translate="false" value="Reject"/>
+        <text id="positive" need_translate="false" value="Approve"/>
     </law_21>
     <law_22>
         <text id="description" need_translate="false" value="Raising weekly working hours will allow capitalists to produce more goods than before without breaking the law or causing strikes among workers."/>
@@ -155,17 +155,17 @@
         <text id="positive" need_translate="false" value="Increase police funding by %1%"/>
     </law_7>
     <law_8>
-        <text id="description" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="The governor may be dismissed if accused of corruption"/>
         <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
-        <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="name" need_translate="false" value="Impeachment of the Governor"/>
+        <text id="negative" need_translate="false" value=""/>
+        <text id="positive" need_translate="false" value="Impeach "/>
     </law_8>
     <law_9>
-        <text id="description" need_translate="true" value=""/>
+        <text id="description" need_translate="false" value="The judge may be dismissed if accused of corruption"/>
         <text id="description_negative" need_translate="true" value=""/>
-        <text id="name" need_translate="true" value=""/>
+        <text id="name" need_translate="false" value="Impeachment of the Judge"/>
         <text id="negative" need_translate="true" value=""/>
-        <text id="positive" need_translate="true" value=""/>
+        <text id="positive" need_translate="false" value="Impeach judge %1"/>
     </law_9>
 </laws>

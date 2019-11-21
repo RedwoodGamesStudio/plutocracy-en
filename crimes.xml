@@ -36,11 +36,13 @@
         <text id="btn_ok" need_translate="false" value="Ok"/>
         <text id="chance_requirements" need_translate="false" value="Chance: %1"/>
         <text id="corrupted_earlier" need_translate="false" value="The official has already had this case! You can use him on {date}"/>
+        <text id="dummy_not_possible" need_translate="false" value="{person_name} will never be your puppet!"/>
         <text id="government_contract_header" need_translate="false" value="Government contract"/>
         <text id="government_contract_text" need_translate="false" value="You can only have one government contract for the company type like this"/>
         <text id="governor_disabled" need_translate="false" value="The governor is sick!"/>
         <text id="governor_is_dummy" need_translate="false" value="Puppet-governor"/>
         <text id="governor_is_friendly" need_translate="false" value="Friend-governor"/>
+        <text id="honest_person" need_translate="false" value="{person_name} cannot be corrupt!"/>
         <text id="incorrect_law_stage" need_translate="false" value="The governor has not got the current bill yet!"/>
         <text id="influence_requirements" need_translate="false" value="Influence: %1"/>
         <text id="judge_disabled" need_translate="false" value="The judge is sick!"/>
