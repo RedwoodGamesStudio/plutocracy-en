@@ -3174,7 +3174,7 @@
         <text id="menu_lobby" need_translate="false" value="Lobby"/>
         <text id="minority_party_leader" need_translate="false" value="%1 faction leader (Minority)"/>
         <text id="ratification_by_governor" need_translate="false" value="Governor's ratification"/>
-        <text id="rating" need_translate="true" value="Voters rating"/>
+        <text id="rating" need_translate="false" value="Voters rating"/>
         <text id="rating_hint" need_translate="false" value="Current rating: {rating}%&lt;br&gt;&lt;br&gt;The higher the rating, the higher the probability of being re-elected. The nearest date of election: {election_date}"/>
         <text id="state_politic_info" need_translate="false" value="%1"/>
         <text id="support_by_parties" need_translate="false" value="Forecast parties support"/>
