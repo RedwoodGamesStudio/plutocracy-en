@@ -484,9 +484,9 @@
             <text id="item_0_0_header" need_translate="false" value="Use agent"/>
             <text id="item_0_0_hint" need_translate="false" value="You need to have the contact with agents to manipulate a company"/>
             <text id="item_0_0_name" need_translate="false" value="Use agent"/>
-            <text id="item_0_1_header" need_translate="false" value="Change director"/>
-            <text id="item_0_1_hint" need_translate="false" value="Select a new director. After that, the shareholders voting will begin! To win, you must have the majority of voters 'AGREE'. Your puppets and friends always vote in your favor"/>
-            <text id="item_0_1_name" need_translate="false" value="Change director"/>
+            <text id="item_0_1_header" need_translate="false" value="Change CEO"/>
+            <text id="item_0_1_hint" need_translate="false" value="Select a new CEO. After that, the shareholders voting will begin! To win, you must have the majority of voters 'AGREE'. Your puppets and friends always vote in your favor"/>
+            <text id="item_0_1_name" need_translate="false" value="Change CEO"/>
             <text id="item_0_2_header" need_translate="false" value="Development strategy"/>
             <text id="item_0_2_hint" need_translate="false" value="Set a priority direction for company development. Required to get a controlling interest"/>
             <text id="item_0_2_name" need_translate="false" value="Development strategy"/>
@@ -542,12 +542,13 @@
         <text id="accident_pay_compensetions_text" need_translate="false" value="You are gonna pay compensation in the amount of 3 monthly salaries. Total sum: {compensations}"/>
         <text id="accident_result_header" need_translate="false" value="Accident investigation!"/>
         <text id="accident_result_text" need_translate="false" value="The mass media attention helped to start investigating! The company is fined $ {money_penalty}"/>
-        <text id="accident_text" need_translate="false" value="There was an accident in the company, the CEO said! As a result, {workers} person(s) were injured. Families of victims are claiming compensations"/>
+        <text id="accident_text" need_translate="false" value="There was an accident in the company, the CEO said! As a result, {workers_count} person(s) were injured. Families of victims are claiming compensations"/>
         <text id="agree" need_translate="false" value="Ok"/>
         <text id="cancel_button" need_translate="false" value="Resent"/>
         <text id="decide" need_translate="false" value="Make decision"/>
         <text id="decline" need_translate="false" value="Feed promises"/>
         <text id="effects" need_translate="false" value="Consequences"/>
+        <text id="exit_button" need_translate="false" value="Quit"/>
         <text id="negative_result_accident" need_translate="false" value="The company's goodwill will go down by %1%"/>
         <text id="negative_result_strike" need_translate="false" value="Do nothing"/>
         <text id="ok_button" need_translate="false" value="Take decision"/>
@@ -726,16 +727,18 @@
             <text id="title_8" need_translate="false" value="Turnover"/>
             <text id="title_9" need_translate="false" value="Production\nvolume"/>
         </cards>
+        <text id="change" need_translate="false" value="Change"/>
+        <text id="change_text" need_translate="false" value="Ctrl + click = x10&lt;br&gt;Shift + click = x100"/>
         <text id="company_statistics_blocked" need_translate="false" value="You need to get {shares_need}% shares. Now: {shares_available}%"/>
         <text id="company_statistics_blocked_title" need_translate="false" value="Blocked"/>
         <text id="director" need_translate="false" value="Management"/>
-        <text id="director_hint_text" need_translate="false" value="Drag a director to use"/>
+        <text id="director_hint_text" need_translate="false" value="Drag a CEO to use"/>
         <text id="dynamics" need_translate="false" value="Dynamics"/>
         <text id="max_value" need_translate="false" value="Potential"/>
         <text id="nobody" need_translate="false" value="Nobody"/>
         <text id="progress" need_translate="false" value="Progress"/>
         <text id="progress_decrease" need_translate="false" value="Obsolescence"/>
-        <text id="progress_director" need_translate="false" value="Director"/>
+        <text id="progress_director" need_translate="false" value="CEO"/>
         <text id="progress_havent_dynamics" need_translate="false" value="No"/>
         <text id="progress_skill" need_translate="false" value="From player skills"/>
         <text id="progress_technology" need_translate="false" value="Technology"/>
@@ -760,11 +763,11 @@
         <text id="diplomacy_skill" need_translate="false" value="Diplomacy"/>
         <text id="diplomacy_skill_hint_header" need_translate="false" value="Diplomacy"/>
         <text id="diplomacy_skill_hint_text" need_translate="false" value="The skill shows the difference in the level of diplomacy of characters. The higher the value, the higher the chance to make a deal"/>
-        <text id="directors" need_translate="false" value="Directors"/>
+        <text id="directors" need_translate="false" value="CEOs"/>
         <text id="ecomonic_skill" need_translate="false" value="Economics"/>
-        <text id="employ_director" need_translate="false" value="Hire a director"/>
-        <text id="employ_director_disabled" need_translate="false" value="You cannot hire a director"/>
-        <text id="employ_director_no_control" need_translate="false" value="You need to get a controlling interest in the company to hire a director"/>
+        <text id="employ_director" need_translate="false" value="Hire a CEO"/>
+        <text id="employ_director_disabled" need_translate="false" value="You cannot hire a CEO"/>
+        <text id="employ_director_no_control" need_translate="false" value="You need to get a controlling interest in the company to hire a CEO"/>
         <hints>
             <text id="change_per_step" need_translate="false" value="Changes for quarter:"/>
             <text id="h_1" need_translate="false" value="State"/>
@@ -792,9 +795,9 @@
         <text id="leisure" need_translate="false" value="Leisure"/>
         <text id="max_share_price" need_translate="false" value="Share price"/>
         <text id="negotiation_days" need_translate="false" value="Days"/>
-        <text id="orders" need_translate="false" value="Director's orders"/>
+        <text id="orders" need_translate="false" value="CEO's orders"/>
         <text id="orders_disabled" need_translate="false" value="Unavailable"/>
-        <text id="orders_no_director" need_translate="false" value="You need to hire a director to give some orders"/>
+        <text id="orders_no_director" need_translate="false" value="You need to hire a CEO to give some orders"/>
         <text id="persistence" need_translate="false" value="Perseverance"/>
         <text id="player_is_busy" need_translate="false" value="You are busy!"/>
         <text id="profit" need_translate="false" value="Income"/>
@@ -955,6 +958,7 @@
             <text id="ok_button" need_translate="false" value="Ok"/>
             <text id="reserves_changes" need_translate="false" value="Changes reserves"/>
             <text id="workplaces" need_translate="false" value="Workplaces"/>
+            <text id="workplaces_header" need_translate="false" value="Workplaces"/>
         </change_workplaces_popup>
         <text id="debts" need_translate="false" value="Debts: "/>
         <text id="dividends" need_translate="false" value="Dividend: "/>
@@ -975,12 +979,12 @@
     </director_result>
     <directors_dialog>
         <text id="current_work" need_translate="false" value="Current job"/>
-        <text id="directors" need_translate="false" value="Directors"/>
+        <text id="directors" need_translate="false" value="CEOs"/>
         <text id="gold_parashute" need_translate="false" value="Golden parashute"/>
         <text id="jobless" need_translate="false" value="Unemployed"/>
         <text id="name" need_translate="false" value="Name"/>
         <text id="rate" need_translate="false" value="Rate"/>
-        <text id="select_of_director" need_translate="false" value="Choose director"/>
+        <text id="select_of_director" need_translate="false" value="Choose CEO"/>
         <text id="specific" need_translate="false" value="Specificity"/>
         <text id="turnover_bonus" need_translate="false" value="Turnover bonus"/>
         <text id="type" need_translate="false" value="Type"/>
@@ -1522,7 +1526,7 @@
     </guest_info>
     <hire_director_popup>
         <text id="ok_button" need_translate="false" value="Ok"/>
-        <text id="popup_header" need_translate="false" value="New director!"/>
+        <text id="popup_header" need_translate="false" value="New CEO!"/>
         <text id="popup_text" need_translate="false" value="{nickname} got the CEO position in {companyname} company. The salary is $ {salary}!"/>
     </hire_director_popup>
     <hover_item>
@@ -1771,8 +1775,8 @@
     </map_popup>
     <map_units>
         <text id="ca_desc" need_translate="false" value="California is a state in the Pacific Region of the United States. In 1804\nit was included in Alta California province, within Spanish New Spain Viceroyalty.\nThe area became a part of Mexico in 1821 following its successful war for independence\nbut was ceded to the United States in 1848 after the Mexican–American War.\nThe western portion of Alta California was then organized and admitted as the 31st\nstate on September 9, 1850."/>
-        <text id="ca_motto" need_translate="false" value=""/>
-        <text id="ca_nickname" need_translate="false" value=""/>
+        <text id="ca_motto" need_translate="false" value="Eureka"/>
+        <text id="ca_nickname" need_translate="false" value="The Golden State"/>
         <cities>
             <text id="albany" need_translate="false" value="Albany"/>
             <text id="buffalo" need_translate="false" value="Buffalo"/>
@@ -1793,6 +1797,9 @@
             <text id="syracuse" need_translate="false" value="Syracuse"/>
             <text id="watertown" need_translate="false" value="Watertown"/>
         </cities>
+        <text id="ga_desc" need_translate="false" value="Founded in 1733 as a British colony, Georgia was the last and southernmost of\nthe original Thirteen Colonies to be established. Named after King George II of\nGreat Britain, the Colony of Georgia covered the area from South Carolina south to\nSpanish Florida and west to French Louisiana at the Mississippi River. On January 2, 1788,\nGeorgia became the fourth state to ratify the United States Constitution."/>
+        <text id="ga_motto" need_translate="false" value="Wisdom, Justice, Moderation"/>
+        <text id="ga_nickname" need_translate="false" value="Peach State"/>
         <text id="il_desc" need_translate="false" value="The capital of Illinois is Springfield in the central part of\nthe state. Although today, the state's largest population center is in and\naround Chicago in the northeastern part of the state, the state's European\npopulation grew first in the west, with French who settled along the\nMississippi River, and gave the area the name Illinois Country."/>
         <text id="il_motto" need_translate="false" value="'Union, Justice and Confidence'"/>
         <text id="il_nickname" need_translate="false" value="Pelican state"/>
@@ -1802,9 +1809,9 @@
         <text id="tx_desc" need_translate="false" value="The term 'six flags over Texas' refers to several nations\n that have ruled over the territory. Spain was the first European country\n to claim the area of Texas. France held a short-lived colony. Mexico controlled the\nterritory until 1836 when Texas won its independence, becoming an independent\nRepublic. In 1845, Texas joined the union as the 28th state. The state's annexation set\noff a chain of events that led to the Mexican–American War in 1846. "/>
         <text id="tx_motto" need_translate="false" value="Motto - 'Friendship'"/>
         <text id="tx_nickname" need_translate="false" value="The Lone Star State"/>
-        <text id="va_desc" need_translate="false" value="Virginia's state nickname, the Old Dominion, is a reference\nto this status. Slave labor and the land acquired from displaced\nNative American tribes each played a significant role in the colony's early politics and\nplantation economy. Virginia was one of the 13 Colonies in the American Revolution.\nVirginia is called the &laquo;Mother of States&raquo; because of its role in being carved into states\nsuch as Kentucky, which became the 15th state in 1792."/>
-        <text id="va_motto" need_translate="false" value=""/>
-        <text id="va_nickname" need_translate="false" value=""/>
+        <text id="va_desc" need_translate="false" value="Virginia's state nickname, the Old Dominion, is a reference\nto this status. Slave labor and the land acquired from displaced\nNative American tribes each played a significant role in the colony's early politics and\nplantation economy. Virginia was one of the 13 Colonies in the American Revolution.\nVirginia is called the Mother of States because of its role in being carved into states\nsuch as Kentucky, which became the 15th state in 1792."/>
+        <text id="va_motto" need_translate="false" value="Sic semper tyrannis"/>
+        <text id="va_nickname" need_translate="false" value="Old Dominion"/>
     </map_units>
     <math_functions>
         <text id="b" need_translate="false" value="B"/>
@@ -1879,9 +1886,9 @@
         <text id="goverment_contract_caption" need_translate="false" value="The government contract is concluded!"/>
         <text id="goverment_contract_text" need_translate="false" value="The contract between {company} and {state_name} state is concluded for 4 quarters"/>
         <text id="hiring_director_caption" need_translate="false" value="{company_name} {state_name} CEO appointment"/>
-        <text id="hiring_director_text_negative" need_translate="false" value="In {company_name}, a vote was held on the appointment of a new director. {negative_votes}% VS {positive_votes}% - the shareholders made a decision to leave current director {director_name} to held the position. Nothing much happened, but there is a split between the company's shareholders"/>
-        <text id="hiring_director_text_player" need_translate="false" value="In {company_name}, {player_name} made use of his controlling interest to appoint {director_name} as a new director. Now, there is a misunderstanding among investors about the company development in the long run"/>
-        <text id="hiring_director_text_positive" need_translate="false" value="In {company_name}, a vote was held on the appointment of a new director. {negative_votes}% VS {positive_votes}% - the shareholders are calculating their future earnings"/>
+        <text id="hiring_director_text_negative" need_translate="false" value="In {company_name}, a vote was held on the appointment of a new CEO. {negative_votes}% VS {positive_votes}% - the shareholders made a decision to leave current director {director_name} to held the position. Nothing much happened, but there is a split between the company's shareholders"/>
+        <text id="hiring_director_text_player" need_translate="false" value="In {company_name}, {player_name} made use of his controlling interest to appoint {director_name} as a new CEO. Now, there is a misunderstanding among investors about the company development in the long run"/>
+        <text id="hiring_director_text_positive" need_translate="false" value="In {company_name}, a vote was held on the appointment of a new CEO. {negative_votes}% VS {positive_votes}% - the shareholders are calculating their future earnings"/>
         <text id="horse_racing_caption" need_translate="false" value="Horse racing invitation from %1"/>
         <text id="horse_racing_text" need_translate="false" value="{opponent} invited you to horse racing in order to talk in an informal atmosphere. It's valid until %1"/>
         <text id="invite_to_dinner_caption" need_translate="false" value="Dinner invitation from %1"/>
@@ -2061,8 +2068,8 @@
         <text id="agent_hint_text" need_translate="false" value="You will be able to use agent {agent_type} in a positive relationship"/>
         <text id="agent_in_genetive" need_translate="false" value="Agent"/>
         <text id="assistant" need_translate="false" value="Assistant"/>
-        <text id="assistant_director" need_translate="false" value="&quot;{companyname}&quot; director"/>
-        <text id="assistant_director_in_genetive" need_translate="false" value="&quot;{companyname}&quot; directors"/>
+        <text id="assistant_director" need_translate="false" value="&quot;{companyname}&quot; CEO"/>
+        <text id="assistant_director_in_genetive" need_translate="false" value="&quot;{companyname}&quot; CEOs"/>
         <text id="assistant_in_genetive" need_translate="false" value="Assistant"/>
         <text id="authority" need_translate="false" value="Authority"/>
         <text id="bot" need_translate="false" value="Opponent"/>
@@ -2072,7 +2079,7 @@
         <text id="compromising_hint_text" need_translate="false" value=""/>
         <text id="democrat" need_translate="false" value="Democrat"/>
         <text id="democrat_in_genetive" need_translate="false" value="Democrats"/>
-        <text id="director" need_translate="false" value="Director"/>
+        <text id="director" need_translate="false" value="CEO"/>
         <text id="dummy_hint_header" need_translate="false" value="Puppet"/>
         <text id="dummy_hint_text" need_translate="false" value="Now developing"/>
         <text id="enemy_relation" need_translate="false" value="Opponent"/>
@@ -2494,6 +2501,10 @@
         <text id="diplomacy" need_translate="false" value="Diplomacy"/>
         <text id="economics" need_translate="false" value="Economics"/>
         <text id="hint" need_translate="false" value="To learn the skill, get experience points"/>
+        <text id="hint_2" need_translate="false" value="Get the maximum skill level to boost your knowledge level in {skill_type} by +1"/>
+        <text id="hint_2_diplomacy" need_translate="false" value="Diplomacy"/>
+        <text id="hint_2_economics" need_translate="false" value="Economics"/>
+        <text id="hint_2_politics" need_translate="false" value="Politics"/>
         <text id="level_1" need_translate="false" value="Level 1"/>
         <text id="level_2" need_translate="false" value="level 2"/>
         <text id="level_3" need_translate="false" value="Level 3"/>
@@ -2554,7 +2565,7 @@
         <text id="diplomacy_left_area_hint_text_2" need_translate="false" value="Max impact on chance:"/>
         <text id="diplomacy_left_area_hint_text_3" need_translate="false" value="Chance to make a deal"/>
         <text id="director_is_player" need_translate="false" value="You cannot fire yourself!"/>
-        <text id="director_not_exist" need_translate="false" value="A director is not appointed!"/>
+        <text id="director_not_exist" need_translate="false" value="A CEO is not appointed!"/>
         <text id="economics_left_area_hint_header" need_translate="false" value="Economics"/>
         <text id="economics_left_area_hint_text" need_translate="false" value="Economics skill allows you to get the best price in negotiations as well as upgrading a company management"/>
         <text id="economics_left_area_hint_text_2" need_translate="false" value="Max impact on price:"/>
@@ -2580,7 +2591,7 @@
         <text id="menu_assistant" need_translate="false" value="Hire"/>
         <text id="menu_assistant_fire" need_translate="false" value="Fire"/>
         <text id="menu_assistant_hire" need_translate="false" value="Hire"/>
-        <text id="menu_change_director" need_translate="false" value="Change director"/>
+        <text id="menu_change_director" need_translate="false" value="Change CEO"/>
         <text id="menu_compromising" need_translate="false" value="Dirt"/>
         <text id="menu_corrupt" need_translate="false" value="Corrupt"/>
         <text id="menu_corrupt_not_friendly" need_translate="false" value="You need to improve the character's loyalty to you in order to make corruption deals"/>
@@ -2869,17 +2880,16 @@
         <text id="ambition" need_translate="false" value="Ambition"/>
         <text id="assets" need_translate="false" value="Wealth"/>
         <text id="characteristics" need_translate="false" value="Characteristics"/>
+        <text id="filter_all_ambitions" need_translate="false" value="All ambitions"/>
         <text id="filter_all_persons" need_translate="false" value="All characters"/>
         <text id="filter_all_states" need_translate="false" value="All states"/>
         <text id="filter_bot" need_translate="false" value="Opponent"/>
-        <text id="filter_director" need_translate="false" value="Director"/>
-        <text id="filter_illinois" need_translate="false" value="Illinois"/>
-        <text id="filter_new_york" need_translate="false" value="New York"/>
+        <text id="filter_director" need_translate="false" value="CEO"/>
         <text id="filter_official" need_translate="false" value="Official"/>
         <text id="filter_player" need_translate="false" value="Player"/>
         <text id="filter_politician" need_translate="false" value="Politician"/>
+        <text id="filter_possible_ambitions" need_translate="false" value="Doable"/>
         <text id="filter_shareholder" need_translate="false" value="Shareholder"/>
-        <text id="filter_texas" need_translate="false" value="Texas"/>
         <text id="name" need_translate="false" value="Character"/>
         <text id="profit" need_translate="false" value="Income"/>
         <text id="reputation" need_translate="false" value="Influence"/>
@@ -2911,7 +2921,7 @@
         <text id="election_opponent" need_translate="false" value="Opponent"/>
         <text id="failed_negotiation" need_translate="false" value="Failed_negotiation"/>
         <text id="hired_assistant" need_translate="false" value="Hired assistant"/>
-        <text id="hired_director" need_translate="false" value="Hired director"/>
+        <text id="hired_director" need_translate="false" value="Hired CEO"/>
         <text id="in_prison" need_translate="false" value="In prison"/>
         <text id="individual_ambition" need_translate="false" value="Ambition 'Exclusive owner'"/>
         <text id="journalist" need_translate="false" value="Used journalist"/>
@@ -3062,7 +3072,7 @@
         <text id="persons_list" need_translate="false" value="Characters list"/>
         <text id="reputation" need_translate="false" value="Influence"/>
         <text id="salary" need_translate="false" value="Salary"/>
-        <text id="select_director_window" need_translate="false" value="Select director"/>
+        <text id="select_director_window" need_translate="false" value="Select CEO"/>
     </select_director_window>
     <settings_window>
         <text id="2k" need_translate="false" value="2k"/>
@@ -3329,7 +3339,7 @@
         <editable>
             <text id="field_0" need_translate="false" value="Wage"/>
             <text id="field_1" need_translate="false" value="Occupied workers"/>
-            <text id="field_2" need_translate="false" value="Director salary"/>
+            <text id="field_2" need_translate="false" value="CEO salary"/>
             <text id="field_3" need_translate="false" value="Board member salary"/>
             <text id="field_4" need_translate="false" value="Working conditions"/>
             <text id="field_5" need_translate="false" value="Working day"/>
@@ -3357,7 +3367,7 @@
             <text id="pure_profit" need_translate="false" value="Net income"/>
             <text id="raw_buying" need_translate="false" value="Raw materials purchase"/>
             <text id="salary" need_translate="false" value="Salary"/>
-            <text id="salary_director" need_translate="false" value="Director salary"/>
+            <text id="salary_director" need_translate="false" value="CEO salary"/>
             <text id="salary_directors_board" need_translate="false" value="Directors board"/>
             <text id="salary_workers" need_translate="false" value="Workers"/>
             <text id="shares_buy" need_translate="false" value="Share purchase"/>
@@ -3372,7 +3382,7 @@
             <text id="field_0" need_translate="true" value=""/>
             <text id="field_1" need_translate="true" value=""/>
             <text id="field_10" need_translate="true" value=""/>
-            <text id="field_11" need_translate="false" value="It represents how much resources the company spends on the salary of workers, director and board of directors - all this has an effect on the motivation and productivity of workers"/>
+            <text id="field_11" need_translate="false" value="It represents how much resources the company spends on the salary of workers, CEO and board of directors - all this has an effect on the motivation and productivity of workers"/>
             <text id="field_12" need_translate="true" value=""/>
             <text id="field_13" need_translate="true" value=""/>
             <text id="field_14" need_translate="true" value=""/>
@@ -3441,8 +3451,8 @@
             <text id="field_13" need_translate="false" value="Workers wages"/>
             <text id="field_14" need_translate="false" value="Motivation"/>
             <text id="field_15" need_translate="false" value="Workers"/>
-            <text id="field_16" need_translate="false" value="Director salary"/>
-            <text id="field_17" need_translate="false" value="Director bonus"/>
+            <text id="field_16" need_translate="false" value="CEO salary"/>
+            <text id="field_17" need_translate="false" value="CEO bonus"/>
             <text id="field_18" need_translate="false" value="Gold parachute"/>
             <text id="field_19" need_translate="false" value="Board of directors salary"/>
             <text id="field_2" need_translate="false" value="Assets"/>
@@ -3475,7 +3485,7 @@
             <text id="field_44" need_translate="false" value="Black bookkeeping technology"/>
             <text id="field_45" need_translate="false" value="1 workplace maintenance"/>
             <text id="field_46" need_translate="false" value="Labor rate"/>
-            <text id="field_47" need_translate="false" value="Director rate"/>
+            <text id="field_47" need_translate="false" value="CEO rate"/>
             <text id="field_48" need_translate="false" value="Board member rate"/>
             <text id="field_49" need_translate="false" value="Assets"/>
             <text id="field_5" need_translate="false" value="Market share"/>
@@ -3617,12 +3627,12 @@
             <text id="page_4_text" need_translate="false" value="You must have more influence points than the selected character or an equal number ones in order to start negotiating. Good loyalty decreases the required influence points and vice versa. Influence is an essential strategic resource. By buying companies, you will get more influence points (the amount of influence depends on the number of shares and workers in a company, the number of puppets and sponsored politicians)"/>
         </company>
         <company_management>
-            <text id="page_1_text" need_translate="false" value="Here you can influence the director’s decision by developing the company the way you want. The real monopolist does not manage a company  - he looks for capable managers.\nA director is the key to company development."/>
-            <text id="page_2_text" need_translate="false" value="If you want to change a director, click the button on the character’s avatar. The power of your vote is equal to your stake of shares! Furthermore, directors’ decision depend on their loyalty to you."/>
+            <text id="page_1_text" need_translate="false" value="Here you can influence the CEO’s decision by developing the company the way you want. The real monopolist does not manage a company  - he looks for capable managers.\nA CEO is the key to company development."/>
+            <text id="page_2_text" need_translate="false" value="If you want to change a CEO, click the button on the character’s avatar. The power of your vote is equal to your stake of shares! Furthermore, CEOs’ decision depend on their loyalty to you."/>
         </company_management>
         <company_statistics>
-            <text id="page_1_text" need_translate="false" value="To see the detailed information, click any card. Here you will see the things affecting the company income and expenses. Remember, you don't need to engage in micromanagement - you have a director for that! Your goal is to get the most profitable companies creating a monopoly."/>
-            <text id="page_2_text" need_translate="false" value="By having a controlling interest, you can manage a company director by directing his focus of attention to any of the 12 directions. The higher the director’s diplomacy skill, the more directions he has. The higher the director’s economics skill, the better he runs the company."/>
+            <text id="page_1_text" need_translate="false" value="To see the detailed information, click any card. Here you will see the things affecting the company income and expenses. Remember, you don't need to engage in micromanagement - you have a CEO for that! Your goal is to get the most profitable companies creating a monopoly."/>
+            <text id="page_2_text" need_translate="false" value="By having a controlling interest, you can manage a company CEO by directing his focus of attention to any of the 12 directions. The higher the CEO’s diplomacy skill, the more directions he has. The higher the CEO economics skill, the better he runs the company."/>
             <text id="page_3_text" need_translate="false" value="Learn your skills or get new technologies, to improve the management. To get a technology, you need to organize a merger of your companies."/>
         </company_statistics>
         <compromising_evidence>
@@ -3682,8 +3692,8 @@
     <voting_event_popup>
         <text id="dividends_header" need_translate="false" value="Change dividends size"/>
         <text id="dividends_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested changing dividends size from {dividends_before}% to {dividends_after}%. Your income will change by $ {profit_change}"/>
-        <text id="hire_director_header" need_translate="false" value="Appoint new director"/>
-        <text id="hire_director_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested taking new director {new_director_name} instead of {old_director_name}. {shareholder_name} believes the new director will be better able to cope with the company's management than previous one"/>
+        <text id="hire_director_header" need_translate="false" value="Appoint new CEO"/>
+        <text id="hire_director_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested taking new CEO {new_director_name} instead of {old_director_name}. {shareholder_name} believes the new CEO will be better able to cope with the company's management than previous one"/>
         <text id="loans_header" need_translate="false" value="Attract loan capital"/>
         <text id="loans_text" need_translate="false" value="{shareholder_name}, owning {shares_part}% shares {company_name} company, suggested getting a business loan of $ {loan_sum} at a rate of {loan_rate}% to increase reserves. He thinks the financial crisis is coming...so the company needs free money. The net income will decreases by $ {profit_change}"/>
         <text id="negative_button_header" need_translate="false" value="Against"/>
